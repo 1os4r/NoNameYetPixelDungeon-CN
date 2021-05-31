@@ -40,13 +40,13 @@ import com.watabou.utils.Bundle;
 public class WellWater extends Blob {
 
     private static final String TXT_PROCCED =
-            "你从井里打了一些水。";
+            "你从井里打了一些水。\n";
 
     private static final String TXT_VIAL_IS_FULL =
-            "你的水袋已经装满了。";
+            "你的水袋已经装满了。\n";
 
     private static final String TXT_NO_MORE_WATER =
-            "这口井现在是空的.";
+            "这口井现在是空的.\n";
 
     protected int pos;
 
