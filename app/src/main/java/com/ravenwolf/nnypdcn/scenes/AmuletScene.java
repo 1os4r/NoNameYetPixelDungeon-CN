@@ -25,11 +25,11 @@ package com.ravenwolf.nnypdcn.scenes;
 
 import com.ravenwolf.nnypdcn.Dungeon;
 import com.ravenwolf.nnypdcn.ResultDescriptions;
+import com.ravenwolf.nnypdcn.actors.Actor;
 import com.ravenwolf.nnypdcn.visuals.Assets;
 import com.ravenwolf.nnypdcn.visuals.effects.Flare;
 import com.ravenwolf.nnypdcn.visuals.effects.Speck;
 import com.ravenwolf.nnypdcn.visuals.ui.RedButton;
-import com.watabou.noosa.BitmapTextMultiline;
 import com.ravenwolf.nnypdcn.visuals.ui.RenderedTextMultiline;
 import com.watabou.noosa.Camera;
 import com.watabou.noosa.Game;
@@ -77,6 +77,7 @@ public class AmuletScene extends PixelScene {
 		RedButton btnExit = new RedButton( TXT_EXIT ) {
 			@Override
 			protected void onClick() {
+				Actor.fixTime();
 				Dungeon.win( ResultDescriptions.WIN );
 				Dungeon.deleteGame( Dungeon.hero.heroClass, true );
 				Game.switchScene( noText ? TitleScene.class : RankingsScene.class );

@@ -2111,7 +2111,6 @@ public class Hero extends Char {
 
         if( !rezzed ){
             super.die( cause, dmg );
-            Actor.fixTime();
             reallyDie( cause, dmg );
         }
     }

@@ -37,7 +37,7 @@ import java.util.ArrayList;
 
 public class Amulet extends Item {
 	
-	private static final String AC_END = "INVOKE";
+	private static final String AC_END = "结束游戏";
 	
 	{
 		name = "Yendor护身符";
