@@ -37,7 +37,7 @@ public class Ensnared extends Debuff {
     public String statusMessage() { return "缠绕"; }
 
     @Override
-    public String playerMessage() { return "你被缠绕住了! 尝试移动挣脱它!"; }
+    public String playerMessage() { return "你被缠绕了! 尝试移动挣脱它!"; }
 
     @Override
     public int icon() {
