@@ -48,7 +48,7 @@ public abstract class EquipableItem extends Item {
 	protected static final String TXT_UNEQUIP = "你卸下了%s。";
     protected static final String TXT_ISEQUIPPED	= "%s已装备";
 
-	private static final String TXT_UNEQUIP_CURSED = "%是诅咒的, 所以你无法卸下它.";
+	private static final String TXT_UNEQUIP_CURSED = "由于%s是诅咒的, 所以你无法移除下它.";
 	private static final String TXT_DETECT_CURSED = "这个%s是诅咒的, 但你在诅咒生效前及时取下了它。";
 
     protected static final String TXT_EQUIP_CURSED_HAND = "你的手不受控制地紧紧握住%s";

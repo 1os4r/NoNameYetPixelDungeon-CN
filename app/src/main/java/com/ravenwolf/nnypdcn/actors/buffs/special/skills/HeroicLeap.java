@@ -111,6 +111,7 @@ public class HeroicLeap extends BuffSkill {
                     });
                 }
                 GLog.i("你不能跳到那个位置");
+                return;
             }
         }
 

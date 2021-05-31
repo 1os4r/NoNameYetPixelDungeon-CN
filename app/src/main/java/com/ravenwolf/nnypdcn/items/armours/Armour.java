@@ -304,8 +304,8 @@ public abstract class Armour extends EquipableItem {
         }
 
         public String desc( Armour armor ) {
-            //return !armor.isCursed() ? desc_p() : desc_n();
-            return desc_p() + (armor.isCursed() ? "。由于这个盔甲是被诅咒的，所以它经常会对穿戴者造成相反的效果" : "");
+            return !armor.isCursed() ? desc_p() : desc_n();
+//            return desc_p() + (armor.isCursed() ? "。由于这个盔甲是被诅咒的，所以它经常会对穿戴者造成相反的效果" : "");
         }
 
 		@Override

@@ -77,6 +77,7 @@ public class SummonThornspitterSkill extends BuffSkill {
                 Dungeon.hero.spendAndNext(1f);
             }else{
                 GLog.i("你不能在这里召唤它");
+                return;
             }
         }
 

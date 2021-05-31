@@ -221,7 +221,7 @@ public abstract class BodyArmor extends Armour {
         info.append( s );
 
         if( isEnchantKnown() && glyph != null ) {
-            info.append( "" + ( isIdentified() && bonus != 0 ? "同时" : "不过" ) + "，它携带着_" + glyph.desc(this) + "_附魔。" );
+            info.append( "" + ( isIdentified() && bonus != 0 ? "同时" : "不过" ) + "，它携带着_" + glyph.desc(this) + "_的附魔。" );
         }
 
         info.append( "这是一件_" + lootChapterAsString() +"_的护甲。" );

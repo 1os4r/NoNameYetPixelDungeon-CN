@@ -52,9 +52,9 @@ public class TagSkill extends TagSpecialAction{
 
 			String cooldownText="";
 			if (skill.getCD()>0)
-				cooldownText="\n\nThis ability will be available in _"+(int)skill.getCD()+" turns_.";
+				cooldownText="\n\n这个技能需要_"+(int)skill.getCD()+"回合_后才能再次使用。";
 			else
-				cooldownText="\n\nAfter using this ability will be on cooldown for _"+(int)skill.getMaxCD()+" turns_.";
+				cooldownText="\n\n这个技能使用后会有_"+(int)skill.getMaxCD()+"回合_的冷却时间。";
 			Image icon = new Image( icons );
 			if(index==1 && Dungeon.hero.skill1!=null && Dungeon.hero.skill1!=HeroSkill.NONE) {
 				icon.frame( film.get( Dungeon.hero.skill1.icon() ) );

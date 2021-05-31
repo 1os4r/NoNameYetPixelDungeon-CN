@@ -90,8 +90,10 @@ public class Fury extends BuffSkill {
 
                 } else
                     GLog.i("请选择一个有效的敌人");
+                    return;
             }
-            GLog.i("请瞄准附近的敌人");
+            GLog.i("你需要瞄准附近的敌人");
+            return;
 
         }
 

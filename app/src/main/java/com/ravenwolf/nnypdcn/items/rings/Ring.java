@@ -48,12 +48,12 @@ public abstract class Ring extends EquipableItem {
 	
 	private static final float TIME_TO_EQUIP = 1f;
 
-	private static final String TXT_IDENTIFY_NORMAL = "你对你的戒指已经足够熟悉并且可以因此将其完全鉴定。它是%s+";
-	private static final String TXT_IDENTIFY_CURSED = "你对你的戒指已经足够熟悉并且可以因此将其完全鉴定。它是%s-";
+	private static final String TXT_IDENTIFY_NORMAL = "你对你的戒指已经足够熟悉并且可以因此将其完全鉴定。它是%s+%s";
+	private static final String TXT_IDENTIFY_CURSED = "你对你的戒指已经足够熟悉并且可以因此将其完全鉴定。它是%s-%s";
 
 	private static final String TXT_UNEQUIP_TITLE = "卸下一枚戒指";
 	private static final String TXT_UNEQUIP_MESSAGE =
-		"你只能同时装备两枚戒指，请卸下一枚已经装的备戒指再尝试。";
+		"你只能同时装备两枚戒指，请卸下一枚已经装备的戒指再尝试。";
 
 	protected Buff buff;
 	

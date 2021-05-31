@@ -44,7 +44,7 @@ public class TomeOfMasterySkill extends Item {
 
 	public static final float TIME_TO_READ = 6;
 
-	public static final String AC_READ	= "READ";
+	public static final String AC_READ	= "阅读";
 
 	{
 		stackable = false;
