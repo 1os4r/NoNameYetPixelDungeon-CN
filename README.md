@@ -72,3 +72,5 @@ https://github.com/CatAzreal/YetAnotherPixelDungeon-CN-master
 Source code of No Name Yet Pixel Dungeon:
 https://gitlab.com/RavenWolfPD/nonameyetpixeldungeon
 
+Source code of Shattered Pixel Dungeon:
+https://github.com/00-Evan/shattered-pixel-dungeon
