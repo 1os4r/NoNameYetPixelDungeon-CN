@@ -66,6 +66,9 @@ https://github.com/watabou/pixel-dungeon
 Source code of Yet Another Pixel Dungeon:
 https://github.com/ConsideredHamster/YetAnotherPixelDungeon
 
+Source code of Yet Another Pixel Dungeon CN:
+https://github.com/CatAzreal/YetAnotherPixelDungeon-CN-master
+
 Source code of No Name Yet Pixel Dungeon:
 https://gitlab.com/RavenWolfPD/nonameyetpixeldungeon
 
