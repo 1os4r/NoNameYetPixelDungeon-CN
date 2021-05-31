@@ -48,12 +48,12 @@ public class Unholy extends Weapon.Enchantment {
 
     @Override
     protected String desc_p() {
-        return "对敌人造成不洁的伤害，血量越低，造成的伤害就越多";
+        return "每次攻击对敌人造成不洁的伤害，血量越低，造成的伤害就越多";
     }
 
     @Override
     protected String desc_n() {
-        return "对自己造成不洁的伤害，血量越低，造成的伤害就越多";
+        return "每次对自己造成不洁的伤害，血量越低，造成的伤害就越多";
     }
 
     @Override

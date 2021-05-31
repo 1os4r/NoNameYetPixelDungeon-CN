@@ -72,6 +72,6 @@ public class LongBow extends RangedWeaponMissile {
 	public String desc() {
 
 		return "长弓是由一整块木头雕刻而成的，这种弓适合在远处拿来攻击敌人"
-		+"\n\n这件武器会造成更强大的暴击效果.";
+		+"\n\n这件武器会造成更强大的暴击效果。";
 	}
 }

@@ -103,7 +103,7 @@ public class Blackguard extends MobHealthy {
 	@Override
 	public String description() {
 		return
-			"这个死亡骑士曾经也像你一样，但是现在，它的灵魂被永远的禁锢在这恶魔大厅中。这个死亡骑士正装备着_"+weap.name()+"_.";
+			"这个死亡骑士曾经也像你一样，但是现在，它的灵魂被永远的禁锢在这恶魔大厅中。这个死亡骑士正装备着_"+weap.name()+"_。";
 	}
 
     public void onAttackComplete() {

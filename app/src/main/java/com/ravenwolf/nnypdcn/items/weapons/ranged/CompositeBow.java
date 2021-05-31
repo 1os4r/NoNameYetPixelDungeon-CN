@@ -82,6 +82,6 @@ public class CompositeBow extends RangedWeaponMissile {
 	@Override
 	public String desc() {
 		return "只有熟练弓箭手才能完全掌握这把强大的弓！"
-				+"\n\n这种武器更擅长于暴击敌人.";
+				+"\n\n这种武器更擅长于暴击敌人。";
 	}
 }

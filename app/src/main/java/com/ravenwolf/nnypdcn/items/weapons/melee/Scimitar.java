@@ -62,7 +62,7 @@ public class Scimitar extends MeleeWeaponHeavyOH {
 	@Override
 	public String desc() {
 		//return "A thick curved blade. Its shape allows for faster, yet less powerful attacks.";
-		return "一把厚重的弯刀."
+		return "一把厚重的弯刀。"
 				+"\n\n这种武器更适合用于弹反敌人";
 	}
 

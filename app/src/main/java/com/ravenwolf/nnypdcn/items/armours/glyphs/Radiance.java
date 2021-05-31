@@ -61,7 +61,7 @@ public class Radiance extends Armour.Glyph {
 
     @Override
     protected String desc_p() {
-        return "驱逐附近的不洁生物，并提高自身不洁舒属性抗性";
+        return "被击中时会驱逐附近的不洁生物，并提高自身不洁属性抗性";
     }
 
     @Override

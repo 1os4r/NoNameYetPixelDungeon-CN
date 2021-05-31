@@ -49,7 +49,7 @@ public class Axe extends MeleeWeaponLightOH {
 	@Override
 	public String desc() {
 		return "一把轻便的斧头，通常是用来砍树，但是它的利刃对敌人来说同样致命"
-				+"\n\n这种武器更擅长于暴击敌人.";
+				+"\n\n这种武器更擅长于暴击敌人。";
 	}
 
 	@Override

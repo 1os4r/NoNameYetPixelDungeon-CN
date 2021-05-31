@@ -159,7 +159,7 @@ public class PrisonGuard extends MobHealthy {
     public void activate() {
         state = HUNTING;
         enemySeen = true;
-        yell( "我...必须保护...这些门..." );
+        yell( "我..必须..保护好...这些门..." );
         spend( TICK );
     }
 

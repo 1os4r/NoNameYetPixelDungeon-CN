@@ -75,7 +75,7 @@ public class MoonGlaive extends ThrowingWeaponLight {
 
     @Override
     public String desc() {
-        return "一把由三片锋利的刀刃组成的武器. " +
+        return "一把由三片锋利的刀刃组成的武器。" +
                 "在熟练的人手中，甚至可以一次性连续击中多个目标";
     }
 

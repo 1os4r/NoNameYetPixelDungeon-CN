@@ -110,7 +110,7 @@ public class CorrosiveGas extends Blob {
 	
 	@Override
 	public String tileDesc() {
-		return "这里盘绕着一片致命的腐蚀性气体。.";
+		return "这里盘绕着一片致命的腐蚀性气体。";
 	}
 	
 //	@Override

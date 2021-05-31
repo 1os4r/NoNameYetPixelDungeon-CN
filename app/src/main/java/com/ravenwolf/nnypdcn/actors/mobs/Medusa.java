@@ -119,7 +119,7 @@ public class Medusa extends MobRanged {
 
         if( buff instanceof Enraged ) {
             sprite.showStatus( CharSprite.NEUTRAL, "..." );
-            GLog.i( "美杜莎不再狂暴" );
+            GLog.i( "美杜莎停止了狂暴" );
         }
 
         super.remove(buff);

@@ -61,7 +61,7 @@ public abstract class Weapon extends EquipableItem {
 	private static final int HITS_TO_KNOW	= 10;
 	
 	private static final String TXT_IDENTIFY		= 
-		"你对你的%s已经足够熟悉并且可以因此将其完全鉴定。它是%s。.";
+		"你对你的%s已经足够熟悉并且可以将其完全鉴定。它是%s。";
 //	private static final String TXT_INCOMPATIBLE	=
 //		"Interaction of different types of magic has negated the enchantment on this weapon!";
 	private static final String TXT_TO_STRING		= "%s :%d";
@@ -519,7 +519,7 @@ public abstract class Weapon extends EquipableItem {
 
         if (isIdentified()) {
             info.append( "这个_" + tier + "阶" + ( !descType().isEmpty() ? descType() + " " : "" )  + "武器_" +
-                    "需要_" + itemStr + "点力量_才能正常使用" +
+                    "需要_" + itemStr + "点力量_才能正常使用，" +
                     //( isRepairable() ? ", given its _" + stateToString( state ) + " condition_, " : " " ) +
                     "每次攻击可以造成_" + min() + "-" + max() + "点伤害_。");
 
@@ -527,38 +527,38 @@ public abstract class Weapon extends EquipableItem {
 
             if (itemStr > heroStr) {
                 info.append(
-                        "由于你的力量不足，装备该武器时会使你的潜行和命中_降低 " + penalty + "%_同时还会降低你_" + (int)(100 - 10000 / (100 + penalty)) + "%的攻击速度_." );
+                        "由于你的力量不足，装备该武器时会使你的潜行和命中_降低 " + penalty + "%_同时还会降低你_" + (int)(100 - 10000 / (100 + penalty)) + "%的攻击速度_。" );
             } else if (itemStr < heroStr) {
                 info.append(
                         "由于你拥有额外的力量，所以装备该武器时你的潜行和命中" + ( penalty > 0 ? "只会_降低 " + penalty + "%_" : "_不会降低_" ) + "，" +
-                        "并且额外增加_0-" + (heroStr - itemStr) + "点伤害_." );
+                        "并且额外增加_0-" + (heroStr - itemStr) + "点伤害_。" );
             } else {
                 info.append(
                         "当你装备该武器时，你的潜行和命中" + ( penalty > 0 ? "会_降低" + penalty + "%_, " +
                         "当你的力量超过装备所需力量时，则会减轻该惩罚" : "_不会降低_" ) + "。" );
             }
             if (this instanceof MeleeWeapon)
-                info.append("当用来格挡时, 它会提供_" + guardStrength() + "点防御力_." );
+                info.append("当用来格挡时, 它会提供_" + guardStrength() + "点防御力_。" );
         } else {
-            info.append(  "通常这个_" + tier + "阶" + ( !descType().isEmpty() ? descType() + " " : "" )  + "武器_需要_" + itemStr + "点力量_才能正常使用" +
+            info.append(  "通常这个_" + tier + "阶" + ( !descType().isEmpty() ? descType() + " " : "" )  + "武器_需要_" + itemStr + "点力量_才能正常使用，" +
                    // ( isRepairable() ? ", when in _" + stateToString( state ) + " condition_, " : " " ) +
-                    "每次攻击可以造成_" + min(0) + "-" + max(0) + "点伤害_." );
+                    "每次攻击可以造成_" + min(0) + "-" + max(0) + "点伤害_。" );
 
             info.append( p );
 
             if (itemStr > heroStr) {
                 info.append(
-                        "由于你的力量不足，装备该武器时会使你的潜行和命中_降低 " + penalty + "%_同时还会降低你_" + (int)(100 - 10000 / (100 + penalty)) + "%的攻击速度_." );
+                        "由于你的力量不足，装备该武器时会使你的潜行和命中_降低 " + penalty + "%_同时还会降低你_" + (int)(100 - 10000 / (100 + penalty)) + "%的攻击速度_。" );
             } else if (itemStr < heroStr) {
                 info.append(
                         "由于你拥有额外的力量，所以装备该武器时你的潜行和命中" + ( penalty > 0 ? "只会_降低" + penalty + "%_" : "_不会降低_" ) + "，" +
-                        "并且额外增加_0-" + (heroStr - itemStr) + "点伤害_." );
+                        "并且额外增加_0-" + (heroStr - itemStr) + "点伤害_。" );
                 info.append(
                         "当你装备该武器时，你的潜行和命可能" + ( penalty > 0 ? "会_降低" + penalty + "%_, " : "_不会降低_" + ", " ) +
                         "除非你的力量不同于装备的力量需求" + "。" );
             }
             if (this instanceof MeleeWeapon)
-                info.append("当用来格挡时, 它通常会提供_" + guardStrength(0) + "点防御力_." );
+                info.append("当用来格挡时, 它通常会提供_" + guardStrength(0) + "点防御力_。" );
         }
 
         if (this instanceof ThrowingWeapon){
@@ -585,7 +585,7 @@ public abstract class Weapon extends EquipableItem {
         info.append( s );
 
         if( isIdentified() && bonus > 0 ) {
-            info.append( "他似乎已被_升级_." );
+            info.append( "他似乎已被_升级_。" );
         } else if( isCursedKnown() ) {
             info.append( !isCursed() ? "它看起来并_没有被诅咒_。" :
                     "你能感受到它似乎充满了_恶意_的魔力"/* + name */+"。" );

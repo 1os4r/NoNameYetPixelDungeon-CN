@@ -47,7 +47,7 @@ public class Mace extends MeleeWeaponHeavyOH {
 
 
 	public String desc() {
-		return "这把武器前端的大型铁头能够造成可观的伤害."
-				+"\n\n这种武器的暴击效果更加强大.";
+		return "这把武器前端的大型铁头能够造成可观的伤害。"
+				+"\n\n这种武器的暴击效果更加强大。";
 	}
 }

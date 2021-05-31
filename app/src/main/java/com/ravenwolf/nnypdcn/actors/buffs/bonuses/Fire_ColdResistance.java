@@ -41,12 +41,12 @@ public class Fire_ColdResistance extends Bonus {
     public String statusMessage() { return "增加抗性"; }
 
     @Override
-    public String playerMessage() { return "你感受到了一种说不出的温暖."; }
+    public String playerMessage() { return "你感受到了一种说不出的温暖。"; }
 
 
     @Override
     public String description() {
-        return "你感受到了一种说不出的温暖，增加了你对火焰和冰霜的抗性.";
+        return "你感受到了一种说不出的温暖，增加了你对火焰和冰霜的抗性。";
     }
 
 

@@ -76,7 +76,7 @@ public class Chilled extends Debuff {
 
     @Override
     public String description() {
-        return "寒冰使你所有的动作都变慢了，油灯也会被它熄灭，最重要的是它限制了你的大部分行动。若在水里则会继续延长这种效果的持续时间.";
+        return "寒冰使你所有的动作都变慢了，油灯也会被它熄灭，最重要的是它限制了你的大部分行动。若在水里则会继续延长这种效果的持续时间。";
     }
 
     private final static int FREEZE_THRESHOLD = 8;

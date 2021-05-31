@@ -80,7 +80,7 @@ public class Flail extends MeleeWeaponHeavyOH {
 
 	@Override
 	public String desc() {
-		return "铁链上附着一个带刺的钢球，笨拙难用，如果能命中的话威力极强."
+		return "铁链上附着一个带刺的钢球，笨拙难用，如果能命中的话威力会很大。"
 				+"\n\n这种武器更擅长于暴击敌人，并且会造成额外的效果。但是它不能进行偷袭";
 	}
 

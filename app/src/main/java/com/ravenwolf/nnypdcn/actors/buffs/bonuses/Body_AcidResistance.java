@@ -46,7 +46,7 @@ public class Body_AcidResistance extends Bonus {
 
     @Override
     public String description() {
-        return "改善了你的新陈代谢，并且增加你对酸蚀类的抗性.";
+        return "改善了你的新陈代谢，并且增加你对酸蚀类的抗性。";
     }
 
 }

@@ -37,7 +37,7 @@ public class WyrmflowerHerb extends Herb {
         image = ItemSpriteSheet.HERB_WYRMFLOWER;
 
         alchemyClass = PotionOfStrength.class;
-        message = "尝起来有种浓厚的味道.";
+        message = "尝起来有种浓厚的味道。";
     }
 
     @Override

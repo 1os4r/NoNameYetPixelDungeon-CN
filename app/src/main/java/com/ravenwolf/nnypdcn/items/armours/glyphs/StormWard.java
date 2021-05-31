@@ -64,12 +64,12 @@ public class StormWard extends Armour.Glyph {
 
     @Override
     protected String desc_p() {
-        return "电击命中你的敌人，并获得电击属性的抗性";
+        return "被击中时电击敌人，并获得雷电抗性";
     }
 
     @Override
     protected String desc_n() {
-        return "被敌人命中时会电击自身";
+        return "被击中时会电击自身";
     }
 
     @Override

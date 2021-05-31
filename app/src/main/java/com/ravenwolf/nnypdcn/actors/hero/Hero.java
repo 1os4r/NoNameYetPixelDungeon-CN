@@ -151,7 +151,7 @@ import java.util.HashSet;
 
 public class Hero extends Char {
 
-    private static final String TXT_LEAVE = "没有人会轻易地离开像素地牢.";
+    private static final String TXT_LEAVE = "没有人会轻易地离开像素地牢。";
     private static final String TXT_LEAVE_WARRIOR = "逃跑毫无荣誉可言，我必须前进。";
     private static final String TXT_LEAVE_SCHOLAR = "不论我所之前做的决定有多么愚蠢，现在这个地步放弃只会让事情变得更糟。";
     private static final String TXT_LEAVE_BRIGAND = "这不是我要去的地方。\n必须一直向下，我已无路可退！";
@@ -160,7 +160,7 @@ public class Hero extends Char {
     private static final String TXT_EXP = "%+dEXP";
     private static final String TXT_LEVEL_UP = "升级！";
     private static final String TXT_NEW_LEVEL =
-            "你升到了%d级！你的%s.";
+            "你升到了%d级！你的%s。";
 
     public static final String TXT_YOU_NOW_HAVE = "你捡起了%s";
 

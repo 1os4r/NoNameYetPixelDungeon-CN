@@ -46,7 +46,7 @@ public class Toughness extends Bonus {
 
     @Override
     public String description() {
-        return "你感觉自己现在战无不胜！. 大大增加了你的物理抗性.";
+        return "你感觉自己现在战无不胜！大大增加了你的物理抗性。";
     }
 
 }

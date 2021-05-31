@@ -709,7 +709,7 @@ public class Necromancer extends MobCaster {
         public void remove( Buff buff ) {
             if( buff instanceof Enraged ) {
                 sprite.showStatus( CharSprite.NEUTRAL, "..." );
-                GLog.i( name +"不再狂暴了。" );
+                GLog.i( name +"停止了狂暴。" );
             }
             super.remove(buff);
         }

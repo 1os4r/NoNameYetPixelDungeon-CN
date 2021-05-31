@@ -109,7 +109,7 @@ public abstract class Shield extends Armour {
     }
 
     private static final String TXT_NOTEQUIPPED = "你需要先装备该盾牌";
-    private static final String TXT_SLAM_FAIL = "附近没有可以进行猛击的敌人.";
+    private static final String TXT_SLAM_FAIL = "附近没有可以进行猛击的敌人";
     private static final String TXT_GUARD = "格挡";
 
     private static final String AC_GUARD = "格挡";
@@ -314,17 +314,17 @@ public abstract class Shield extends Armour {
             info.append( "这个_" + tier + "阶盾牌_需要_" + itemStr + "点力量_才能正常使用" +
                     //( isRepairable() ? ", given its _" + stateToString( state ) + " condition_, " : " " ) +
                     //"will occasionally increase your _armor class by " + armor + " points_.");
-                    "当用来格挡时，它会提供_" + armor + "_点防御力." );
+                    "当用来格挡时，它会提供_" + armor + "_点防御力。" );
 
             info.append( p );
 
             if (itemStr > heroStr) {
                 info.append(
-                        "由于你的力量不足，装备该盾牌时会使你的潜行和灵巧_降低 " + penalty + "%_，同时还会降低你_" + (int)(100 - 10000 / (100 + penalty)) + "%的移动速度_." );
+                        "由于你的力量不足，装备该盾牌时会使你的潜行和灵巧_降低 " + penalty + "%_，同时还会降低你_" + (int)(100 - 10000 / (100 + penalty)) + "%的移动速度_。" );
             } else if (itemStr < heroStr) {
                 info.append(
                         "由于你拥有额外的力量，所以装备该盾牌时你的潜行和灵巧"
-						 + ( penalty > 0 ? "只会_降低" + penalty + "%_" : "_不会降低_" ) + ".");//+ " " +
+						 + ( penalty > 0 ? "只会_降低" + penalty + "%_" : "_不会降低_" ) + "。");//+ " " +
                                 //"and your armor class will be increased by _" + ((float)(heroStr - itemStr) / 2) + " bonus points_ on average." );
             } else {
                 info.append(
@@ -335,17 +335,17 @@ public abstract class Shield extends Armour {
             info.append(  "通常这个_" + tier + "阶盾牌_需要_" + itemStr + "点力量_才能正常使用" +
                     //( isRepairable() ? ", when in _" + stateToString( state ) + " condition_, " : " " ) +
                     //"will occasionally increase your _armor class by " + armor + " points_." );
-                    "当用来格挡时，它会提供_" + armor + "_点防御力" );
+                    "当用来格挡时，它会提供_" + armor + "_点防御力。" );
 
             info.append( p );
 
             if (itemStr > heroStr) {
                 info.append(
-                        "由于你的力量不足，装备该盾牌时可能会使你的潜行和灵巧_降低" + penalty + "%_，同时还会降低你_" + (int)(100 - 10000 / (100 + penalty)) + "%的移动速度_." );
+                        "由于你的力量不足，装备该盾牌时可能会使你的潜行和灵巧_降低" + penalty + "%_，同时还会降低你_" + (int)(100 - 10000 / (100 + penalty)) + "%的移动速度_。" );
             } else if (itemStr < heroStr) {
                 info.append(
                         "由于你拥有额外的力量，所以装备该盾牌时你的潜行和灵巧可能" 
-						+ ( penalty > 0 ? "只会_降低" + penalty + "%_" : "_不会降低_" ) + ".");// + " " +
+						+ ( penalty > 0 ? "只会_降低" + penalty + "%_" : "_不会降低_" ) + "。");// + " " +
                                 //"and your armor class will be increased by _" + ((float)(heroStr - itemStr) / 2) + " bonus points_ on average." );
             } else {
                 info.append(

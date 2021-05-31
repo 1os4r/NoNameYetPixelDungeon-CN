@@ -52,7 +52,7 @@ public class Javelins extends ThrowingWeaponHeavy {
 	public String desc() {
 		return 
 			"这根金属武器的独特设计使其在抛出后在空中也能一直保持尖头朝前。"
-					+"\n\n这种武器更擅长于暴击敌人.";
+					+"\n\n这种武器更擅长于暴击敌人。";
 	}
 	
 

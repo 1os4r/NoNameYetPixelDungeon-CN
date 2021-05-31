@@ -77,7 +77,7 @@ public class LongStaff extends /*MeleeWeaponLigthTH*/MeleeWeaponHeavyTH {
 	@Override
 	public String desc() {
 		return "一根坚硬的木棍，足以有效地格挡攻击，同时会提高使用者的专注能力"
-				+"\n\n这种武器增加了法杖的效果，并且拥有额外的防御力.";
+				+"\n\n这种武器增加了法杖的效果，并且拥有额外的防御力。";
 	}
 
 }

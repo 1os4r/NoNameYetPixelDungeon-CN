@@ -34,7 +34,7 @@ public class FrozenCarpaccio extends Food {
 		name = "冻肉";
 		image = ItemSpriteSheet.CARPACCIO;
 		energy = Satiety.MAXIMUM * 0.25f;
-        message = "吃起来不错.";
+        message = "吃起来不错";
 	}
 	
 	@Override

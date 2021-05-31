@@ -48,7 +48,7 @@ public class Broadsword extends MeleeWeaponHeavyOH {
 
 	@Override
 	public String desc() {
-		return "这柄剑的厚长利刃闪烁着令人安心的寒光."
+		return "这柄剑的厚长利刃闪烁着令人安心的寒光。"
 				+"\n\n这种武器更适合于用来弹反敌人";
 	}
 

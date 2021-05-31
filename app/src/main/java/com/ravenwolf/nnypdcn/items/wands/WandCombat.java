@@ -81,7 +81,7 @@ public abstract class WandCombat extends Wand {
 
             info.append(
                 "这个法杖目前_" + ( isCursedKnown() && isCursed() ? "是诅咒的" : "未被鉴定" ) +
-                "_. 一般情况下他的充能数为" + maxCharges( 0 ) + " charges_. " /*and will probably " +
+                "_。一般情况下他的充能数为" + maxCharges( 0 ) + "_。" /*and will probably " +
                 "have _" + chance + "% chance_ to miscast when used."*/
             );
 
@@ -89,8 +89,8 @@ public abstract class WandCombat extends Wand {
 
             info.append(
                 "根据你当前的魔能和意志属性，这个法杖释放时" +
-                "可能会造成_" + min + "-" + max + "点伤害_" +
-                "并且_每" + recharge + "回合_恢复1充能."
+                "可能会造成_" + min + "-" + max + "点伤害_，" +
+                "并且_每" + recharge + "回合_恢复1充能。"
             );
 
         } else {
@@ -105,8 +105,8 @@ public abstract class WandCombat extends Wand {
 
             info.append(
                 "根据你当前的魔能和意志属性，这个法杖每次释放时" +
-                "会造成_" + min + "-" + max + "点伤害_" +
-                "并且_每" + recharge + "回合_恢复1充能."
+                "会造成_" + min + "-" + max + "点伤害_，" +
+                "并且_每" + recharge + "回合_恢复1充能。"
             );
 
         }

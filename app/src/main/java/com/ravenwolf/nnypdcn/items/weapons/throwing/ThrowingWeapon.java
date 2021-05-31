@@ -239,7 +239,7 @@ public abstract class ThrowingWeapon extends Weapon {
 
         info.append( "这个_" + tier + "阶" + ( !descType().isEmpty() ? descType() + " " : "" )  + "武器_需要_" + itemStr + "点力量_才能正常使用" +
 
-                "每次攻击可以造成_" + min() + "-" + max() + "点伤害_。");
+                "，每次攻击可以造成_" + min() + "-" + max() + "点伤害_。");
 
         info.append( p );
 

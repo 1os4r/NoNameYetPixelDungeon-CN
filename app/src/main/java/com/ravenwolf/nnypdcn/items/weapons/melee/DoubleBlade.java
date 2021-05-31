@@ -141,6 +141,6 @@ public class DoubleBlade extends MeleeWeaponLightTH {
 	@Override
 	public String desc() {
 		return "双刃剑使用了一种特殊的设计，使得每次都会攻击到周围的敌人。非常适合拿来对付多个敌人"
-		+"\n\n这种武器对周围的单位造成伤害，并且非常适合拿来弹反敌人.";
+		+"\n\n这种武器对周围的单位造成伤害，并且非常适合拿来弹反敌人。";
 	}
 }

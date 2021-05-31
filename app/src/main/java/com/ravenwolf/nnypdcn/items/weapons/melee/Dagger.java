@@ -66,6 +66,6 @@ public class Dagger extends MeleeWeaponLightOH {
 		/*return "A simple iron dagger with a well worn wooden handle. It is ideal for backstabbing, "+
 				"dealing heavy damage to unsuspecting enemies.";*/
 		return "一个破旧的简易铁质匕首"
-		+"\n\n这种武器在对付未察觉你的敌人时候更为有效";
+		+"\n\n这种武器在对付未察觉你的敌人时更为有效";
 	}
 }

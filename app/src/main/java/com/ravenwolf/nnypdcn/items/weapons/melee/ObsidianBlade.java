@@ -75,7 +75,7 @@ public class ObsidianBlade extends MeleeWeaponTHDual {
 
 	@Override
 	public String desc() {
-		return "由黑曜石制成的一对弯曲刀刃.经常被豺狼人们用在祭祀的仪式上，这是一把非常致命的武器"
+		return "由黑曜石制成的一对弯曲刀刃。经常被豺狼人们用在祭祀的仪式上，这是一把非常致命的武器。"
 				+"\n\n这是一把非常快速的武器，在对付未察觉你的敌人时更为有效";
 	}
 }

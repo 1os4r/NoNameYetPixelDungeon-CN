@@ -64,6 +64,6 @@ public class Greatsword extends /*MeleeWeaponHeavyTH*/MeleeWeaponHeavyOH {
 	@Override
 	public String desc() {
 		return "这把巨剑每次进行的沉重挥舞都能造成大量的伤害。"
-				+"\n\n这种武器更适合用来弹反敌人.";
+				+"\n\n这种武器更适合用来弹反敌人。";
 	}
 }

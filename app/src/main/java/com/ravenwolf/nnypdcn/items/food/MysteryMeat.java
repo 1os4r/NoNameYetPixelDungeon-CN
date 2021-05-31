@@ -39,7 +39,7 @@ public class MysteryMeat extends Food {
 
 	@Override
 	public String desc() {
-		return "吃这个总比挨饿好，但还是煮熟了吃比较好.";
+		return "吃这个总比挨饿好，但还是煮熟了吃比较好。";
 	}
 	
 	public int price() {

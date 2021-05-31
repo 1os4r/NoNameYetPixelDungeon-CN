@@ -141,6 +141,6 @@ public class WandOfAvalanche extends WandCombat {
 	@Override
 	public String desc() {
 		return
-			"当这个法杖释放的能量击中墙壁(或任何其他坚固的的障碍)时，他会造成一定范围内落石，伤害并眩晕范围内的所有生物.";
+			"当这个法杖释放的能量击中墙壁(或任何其他坚固的的障碍)时，他会造成一定范围内落石，伤害并眩晕范围内的所有生物。";
 	}
 }

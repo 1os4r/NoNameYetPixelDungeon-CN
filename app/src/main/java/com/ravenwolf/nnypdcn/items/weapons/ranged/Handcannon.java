@@ -63,7 +63,7 @@ public class Handcannon extends RangedWeaponFlintlock {
 	public String desc() {
 		return "尽管最初燧发武器是人类的造物，矮人们迅速适应了这个全新概念并在其上加以改进。" + 
 		"铳炮本身非常沉重，并且需要大量火药用于装填，但它的杀伤力可谓冠绝任何武器。"+
-				"\n\n这种武器的暴击效果更加强大.";
+				"\n\n这种武器的暴击效果更加强大。";
 	}
 
 

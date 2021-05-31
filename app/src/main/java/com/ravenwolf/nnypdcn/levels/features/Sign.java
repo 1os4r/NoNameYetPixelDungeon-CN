@@ -75,8 +75,8 @@ public class Sign {
             "我的仆从已经闻到了你的鲜血",
             "向我求饶，我或许可以饶你一命" +
                 "\n\n下次可就没这机会了",
-            "你玩的太久了, 人类" +
-                "\n\n我想我应该把你移除此地"
+            "游戏到此结束了，凡人。" +
+                "\n\n是时候把你从这场游戏中抹去了，凡人。"
 
 //		"Don't overestimate your strength, use weapons and armor you can handle.",
 //		"Not all doors in the dungeon are visible at first sight. If you are stuck, search for hidden doors.",
@@ -126,7 +126,7 @@ public class Sign {
 	};
 	
 	private static final String TXT_NOMESSAGE =
-		"这里写的东西真是匪夷所思.有点中二的味道！";
+		"这里写的东西真是匪夷所思。让人难以理解！";
 	
 //	public static void read( int pos ) {
 	public static void read() {

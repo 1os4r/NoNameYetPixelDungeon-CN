@@ -158,7 +158,7 @@ public class PrisonLevel extends RegularLevel {
 	public static String tileDescs(int tile) {
 		switch (tile) {
 		case Terrain.EMPTY_DECO:
-			return "地板上残留着一些干枯的血迹.";
+			return "地板上残留着一些干枯的血迹。";
 		case Terrain.BOOKSHELF:
 			return "这个书架可能是监狱图书馆的残留物。里面会不会藏着些有用的东西？";
         case Terrain.SHELF_EMPTY:

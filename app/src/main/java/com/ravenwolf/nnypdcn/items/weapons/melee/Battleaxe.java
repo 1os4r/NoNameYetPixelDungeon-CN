@@ -44,7 +44,7 @@ public class Battleaxe extends MeleeWeaponHeavyOH {
 	@Override
 	public String desc() {
 		return "这把斧头是专门为了战斗而设计的"
-				+"\n\n这种武器更擅长于暴击敌人.";
+				+"\n\n这种武器更擅长于暴击敌人。";
 	}
 
 	@Override

@@ -214,7 +214,7 @@ public class CavesLevel extends RegularLevel {
 		case Terrain.HIGH_GRASS:
 			return "荧光菌菇";
 		case Terrain.WATER:
-			return "冰冷刺骨的水.";
+			return "冰冷刺骨的水。";
 		case Terrain.STATUE_FROG:
 		case Terrain.STATUE_SHAMAN:
 		case Terrain.STATUE_BRUTE:

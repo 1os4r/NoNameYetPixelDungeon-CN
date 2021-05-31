@@ -47,12 +47,12 @@ public class Unstable extends Weapon.Enchantment {
 
     @Override
     protected String desc_p() {
-        return "每次攻击都会敌人触发不同的附魔效果.";
+        return "每次攻击都会对敌人触发不同效果";
     }
 
     @Override
     protected String desc_n() {
-        return "每次攻击都会对自身触发不同的附魔效果";
+        return "每次攻击都会对自身触发不同效果";
     }
 
     private static Class<?extends Weapon.Enchantment>[] randomEnchants = new Class[]{

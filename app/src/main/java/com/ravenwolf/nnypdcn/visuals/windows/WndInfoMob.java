@@ -45,7 +45,7 @@ public class WndInfoMob extends WndTitledMessage {
 		
 		StringBuilder builder = new StringBuilder( mob.description() );
 		
-		builder.append( "\n\n" + ( Bestiary.isBoss( mob ) ? "这个 " : "这个 " ) + mob.name + "正在" + mob.state.status() + "." );
+		builder.append( "\n\n" + ( Bestiary.isBoss( mob ) ? "这个 " : "这个 " ) + mob.name + "正在" + mob.state.status() + "。" );
 		
 		return builder.toString();
 	}

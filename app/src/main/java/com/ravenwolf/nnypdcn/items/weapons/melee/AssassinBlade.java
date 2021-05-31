@@ -104,8 +104,8 @@ public class AssassinBlade extends MeleeWeaponLightOH{
 
 	@Override
 	public String desc() {
-		return "这是一把制作精良的匕首，波浪状的刀刃使它能够更好的穿透敌人的护甲, 在对付未察觉你的敌人时候更加的致命."
-				+"\n\n这件武器会造成更强大的暴击效果，并且在对付未察觉你的敌人时候更为有效";
+		return "这是一把制作精良的匕首，波浪状的刀刃使它能够更好的穿透敌人的护甲, 在对付未察觉你的敌人时会更加的致命。"
+				+"\n\n这件武器会造成更强大的暴击效果，并且在对付未察觉你的敌人时更为有效";
 		//return "A fine crafted sacrificial blade. These blades are made from an enchanted material that offer better control to those who have magical abilities, its also a deadly weapon against unaware foes.";
 	}
 }

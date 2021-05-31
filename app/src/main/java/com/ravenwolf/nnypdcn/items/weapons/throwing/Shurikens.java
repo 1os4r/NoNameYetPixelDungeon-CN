@@ -51,7 +51,7 @@ public class Shurikens extends ThrowingWeaponLight {
 	@Override
 	public String desc() {
 		return 
-			"锋利的星形金属刃片，非常轻便。."
+			"锋利的星形金属刃片，非常轻便。"
 					+"\n\n这件武器在对付未察觉你的敌人时候更为有效。";
 	}
 }

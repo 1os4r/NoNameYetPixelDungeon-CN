@@ -140,7 +140,7 @@ public class Wandmaker extends NPC {
 	@Override
 	public String description() {
 		return 
-			"这位老先生的表情看起来十分困扰。他正在被一个神圣护盾保护着.";
+			"这位老先生的表情看起来十分困扰。他正在被一个神圣护盾保护着。";
 	}
 	
 	public static class Quest {

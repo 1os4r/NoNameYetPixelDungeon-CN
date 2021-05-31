@@ -133,7 +133,7 @@ public class DM300 extends MobHealthy {
 
         if( buff instanceof Enraged ) {
             sprite.showStatus( CharSprite.NEUTRAL, "..." );
-            GLog.i("DM-300停止狂暴。");
+            GLog.i("DM-300停止了狂暴。");
         }
 
         super.remove(buff);

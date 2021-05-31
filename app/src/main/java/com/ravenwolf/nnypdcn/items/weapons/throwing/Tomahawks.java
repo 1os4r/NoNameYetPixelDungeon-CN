@@ -47,6 +47,6 @@ public class Tomahawks extends ThrowingWeaponHeavy {
 	public String desc() {
 		return 
 			"这件飞斧并不是很重，但是依然需要强大的力量才能正常使用"
-					+"\n\n这种武器更擅长于暴击敌人.";
+					+"\n\n这种武器更擅长于暴击敌人。";
 	}
 }

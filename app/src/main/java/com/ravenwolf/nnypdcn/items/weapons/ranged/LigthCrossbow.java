@@ -49,6 +49,6 @@ public class LigthCrossbow extends RangedWeaponCrossbow {
 	@Override
 	public String desc() {
 		return "这件武器允许使用者以强大的力量射出弩箭，但只有训练有素的强壮身躯才能将弦再度拉起。"
-				+"\n\n这种武器更擅长于暴击敌人.";
+				+"\n\n这种武器更擅长于暴击敌人。";
 	}
 }

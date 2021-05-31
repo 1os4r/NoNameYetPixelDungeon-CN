@@ -99,6 +99,6 @@ public class Knuckles extends MeleeWeaponTHDual/*MeleeWeaponLightOH*/ {
                 "attacking with this weapon as fast as with fists, while being almost impossible " +
                 "to knock it out of them."*/
 		return "一副普通的指虎。简易的设计允许使用者如同正常挥舞拳头一样做出快速攻击，而且几乎不可能会脱手。”"
-				+"\n\n这是一个非常快速的武器.";
+				+"\n\n这是一个非常快速的武器。";
 	}
 }

@@ -48,8 +48,8 @@ public abstract class Ring extends EquipableItem {
 	
 	private static final float TIME_TO_EQUIP = 1f;
 
-	private static final String TXT_IDENTIFY_NORMAL = "你对你的%s已经足够熟悉并且可以因此将其完全鉴定。它是%s+%d";
-	private static final String TXT_IDENTIFY_CURSED = "你对你的%s已经足够熟悉并且可以因此将其完全鉴定。它是%s-%d";
+	private static final String TXT_IDENTIFY_NORMAL = "你对你的%s已经足够熟悉并且可以将其完全鉴定。它是%s+%d";
+	private static final String TXT_IDENTIFY_CURSED = "你对你的%s已经足够熟悉并且可以将其完全鉴定。它是%s-%d";
 
 	private static final String TXT_UNEQUIP_TITLE = "卸下一枚戒指";
 	private static final String TXT_UNEQUIP_MESSAGE =
@@ -364,7 +364,7 @@ public abstract class Ring extends EquipableItem {
             info.append( " " );
 
             if( isEquipped( Dungeon.hero ) ){
-                info.append( "邪恶的力量阻止将他取下." );
+                info.append( "邪恶的力量阻止将他取下" );
             } else {
                 info.append( "你能感受到它似乎充满了_恶意_的魔力" );
             }
