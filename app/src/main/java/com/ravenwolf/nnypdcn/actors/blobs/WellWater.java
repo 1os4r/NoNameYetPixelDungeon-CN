@@ -46,7 +46,7 @@ public class WellWater extends Blob {
             "你的水袋已经装满了。\n";
 
     private static final String TXT_NO_MORE_WATER =
-            "这口井现在是枯的。\n";
+            "这口井已经枯了。\n";
 
     protected int pos;
 
