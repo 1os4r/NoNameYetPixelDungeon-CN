@@ -66,7 +66,7 @@ public class Heap implements Bundlable {
 	private static final String TXT_BROKEN_SUCCESS = "%s被炸毁了!";
 	private static final String TXT_BROKEN_PARTIAL = "%s受损了!";
 
-	private static final String TXT_KNOWN_BY_BREWING = "You now know that this is %s!";
+	private static final String TXT_KNOWN_BY_BREWING = "这是一个%s!";
 
 	private static final int HERBS_TO_POTION = 3;
 	

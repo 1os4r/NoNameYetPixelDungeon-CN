@@ -43,8 +43,8 @@ import java.util.HashSet;
 
 public abstract class Scroll extends Item {
 
-	private static final String TXT_BLINDED	= "You can't read a scroll while blinded";
-	private static final String TXT_CONFUSED	= "You can't read a scroll while confused";
+	private static final String TXT_BLINDED	= "你不能在失明时阅读卷轴";
+	private static final String TXT_CONFUSED	= "你不能在眩晕时阅读卷轴";
 
 	public static final String AC_READ	= "阅读";
 	

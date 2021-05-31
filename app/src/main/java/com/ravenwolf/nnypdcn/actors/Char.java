@@ -282,7 +282,7 @@ public abstract class Char extends Actor {
         //FIXME
 	    if (defender instanceof Tengu.TenguClone){
             ((Tengu.TenguClone)defender).reveal();
-            GLog.w("Your attack pass trough the illusion");
+            GLog.w("你攻击了幻影");
             return false;
         }
 /*

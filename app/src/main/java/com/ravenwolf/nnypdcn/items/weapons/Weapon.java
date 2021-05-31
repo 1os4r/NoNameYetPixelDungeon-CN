@@ -472,8 +472,8 @@ public abstract class Weapon extends EquipableItem {
         }
 
         public String desc( Weapon weapon ) {
-            //return !weapon.isCursed() ? desc_p() : desc_n();
-            return desc_p() + (weapon.isCursed() ? ". Because this weapon is cursed, it will often trigger a reversed effect on its wearer" : "");
+            return !weapon.isCursed() ? desc_p() : desc_n();
+            // return desc_p() + (weapon.isCursed() ? ". Because this weapon is cursed, it will often trigger a reversed effect on its wearer" : "");
         }
 
 		@Override
@@ -597,7 +597,7 @@ public abstract class Weapon extends EquipableItem {
 
         if( isEnchantKnown() && enchantment != null ) {
             info.append( " " + ( isIdentified() && bonus != 0 ? "同时" : "不过" ) +
-                    "，它携带着_" + enchantment.desc(this) + "_附魔。" );
+                    "，它携带着_" + enchantment.desc(this) + "_的附魔。" );
         }
 
         info.append( "这是一件_" + lootChapterAsString() +"_武器。" );

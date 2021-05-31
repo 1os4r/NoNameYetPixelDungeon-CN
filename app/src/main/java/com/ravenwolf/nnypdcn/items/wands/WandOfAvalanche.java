@@ -114,7 +114,7 @@ public class WandOfAvalanche extends WandCombat {
 
                     Heap heap = Dungeon.level.heaps.get( i );
                     if (heap != null) {
-                        heap.shatter( "Your wand" );
+                        heap.shatter( "你的法杖" );
                     }
 
                     Dungeon.level.press(i, null);

@@ -30,7 +30,7 @@ import com.ravenwolf.nnypdcn.visuals.windows.WndBag;
 
 public class AlchemyPot {
 
-	private static final String TXT_SELECT_HERB = "Select a herb to throw";
+	private static final String TXT_SELECT_HERB = "请选择一个药草扔进去";
 	
 	private static Hero hero;
 	private static int pos;

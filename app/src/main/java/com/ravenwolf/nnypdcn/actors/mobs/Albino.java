@@ -65,7 +65,7 @@ public class Albino extends MobEvasive {
 		return "这种老鼠在这座城市居住的时间几乎和下水道存在的时间相当，不久前有传言称这些老鼠会攻击宠物，幼儿，有时甚至是成年人。"
 
                     + ( Dungeon.hero.heroClass == HeroClass.WARRIOR ?
-                    "它们并不配做你的对手，然而在数量众多时仍然非常危险。" : "" )
+                    "它们并不配拿来当做对手，但是在数量众多时仍然非常危险。" : "" )
 
                     + ( Dungeon.hero.heroClass == HeroClass.SCHOLAR ?
                     "毫无疑问，这些生物并不是这里的主要威胁，但它们不自然的攻击性可能令人不安。" : "" )

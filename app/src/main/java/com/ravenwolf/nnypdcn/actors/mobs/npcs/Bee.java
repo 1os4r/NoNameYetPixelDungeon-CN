@@ -122,8 +122,7 @@ public class Bee extends NPC {
 	@Override
 	public String description() {
 		return
-			"Despite their small size, golden bees tend " +
-			"to protect their master fiercely. They don't live long though.";
+			"尽管蜜蜂的体型很小，但它们依旧非常的凶猛，并且倾向于地保护它的巢穴。不过一般它们的寿命并不长。";
 	}
 
 	@Override

@@ -211,7 +211,7 @@ public class HallsBossLevel extends Level {
 
 			GameScene.add( boss );
 			boss.spawnFists();
-            boss.yell( "Greetings, mortal. Are you ready to die?" );
+            boss.yell( "凡人，你准备好去赴死了吗？" );
 			
 			stairs = entrance;
 			entrance = -1;

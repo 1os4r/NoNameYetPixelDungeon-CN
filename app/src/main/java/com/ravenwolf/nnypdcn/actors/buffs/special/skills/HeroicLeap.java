@@ -107,8 +107,9 @@ public class HeroicLeap extends BuffSkill {
                             BlastWave.createAtPos( dest );
 
                             Dungeon.hero.spendAndNext(1f);
+                            
                         }
-                    });
+                    });return;
                 }
                 GLog.i("你不能跳到那个位置");
                 return;

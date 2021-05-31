@@ -82,7 +82,7 @@ public class ScrollOfIdentify extends InventoryScroll {
         curUser.sprite.emitter().start(Speck.factory(Speck.QUESTION), 0.1f, Random.IntRange(6, 9));
 
         item.identify();
-        GLog.i("It is " + item);
+        GLog.i("你鉴定出了" + item);
 
 //        Badges.validateItemLevelAcquired(item);
 

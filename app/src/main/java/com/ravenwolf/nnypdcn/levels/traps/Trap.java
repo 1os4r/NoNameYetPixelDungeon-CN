@@ -111,7 +111,7 @@ public abstract class Trap {
 
         if (ch == Dungeon.hero) {
             if (Random.Float()<Dungeon.hero.ringBuffsBaseZero( RingOfFortune.Fortune.class )/2){
-                GLog.i("For some reason this trap fails to trigger.");
+                GLog.i("由于某些原因，这些陷阱并没有被触发。");
                 CellEmitter.get( ch.pos ).burst( Speck.factory( Speck.WOOL ), 4 );
                 return;
             }

@@ -68,6 +68,7 @@ public class SmokeBomb extends BuffSkill {
 
                 if (Actor.findChar(target) != null || Dungeon.level.solid[target] || !Level.fieldOfView[target]) {
                     GLog.w("你只能闪现到视野内的位置");
+                    return;
                 }
 
                 CellEmitter.get(hero.pos).burst(Speck.factory(Speck.WOOL), 4);

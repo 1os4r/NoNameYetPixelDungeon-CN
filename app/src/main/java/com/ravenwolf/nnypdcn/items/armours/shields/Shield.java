@@ -384,7 +384,7 @@ public abstract class Shield extends Armour {
         info.append( s );
 
         if( isEnchantKnown() && glyph != null ) {
-            info.append( "" + ( isIdentified() && bonus != 0 ? "同时" : "不过" ) + "，它携带着_" + glyph.desc(this) + "_附魔。" );
+            info.append( "" + ( isIdentified() && bonus != 0 ? "同时" : "不过" ) + "，它携带着_" + glyph.desc(this) + "_的附魔。" );
         }
 
         info.append( "这是一件_" + lootChapterAsString() +"_的盾牌。" );
@@ -439,13 +439,13 @@ public abstract class Shield extends Armour {
 
         @Override
         public String prompt() {
-            return "Select a nearby enemy to slam";
+            return "选择附近的敌人进行猛击";
         }
     };
 
     public static class ShieldSlam extends MeleeWeapon {
         {
-            name = "shield slam";
+            name = "盾击";
             critical=new BluntCritical(this, false, 2f);
         }
         Shield shield;

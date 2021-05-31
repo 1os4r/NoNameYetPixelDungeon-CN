@@ -282,7 +282,7 @@ public class Satiety extends Buff {
         } else if ( remaining <= PARTIAL ) {
             return "你感觉现在有点饿了，你的自然恢复速率降低了一半，最好找点吃的东西填饱肚子。";
         } else if ( remaining > DEFAULT ) {
-            return "你感觉自己吃的很饱，饱腹状态会使你的生命自然恢复速度增加一半";
+            return "你感觉自己吃的非常饱，饱腹状态会使你的生命恢复速度增加一半";
         } else {
             return "";
         }

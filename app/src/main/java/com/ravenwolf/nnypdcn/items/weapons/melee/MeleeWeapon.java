@@ -61,8 +61,8 @@ public abstract class MeleeWeapon extends Weapon {
             return super.getDrawData(action);
     }
 
-    private static final String TXT_NOTEQUIPPED = "You have to equip this weapon first!";
-    private static final String TXT_CANNOTGUARD = "You can guard only with shields and melee weapons!";
+    private static final String TXT_NOTEQUIPPED = "你要先装备这个武器";
+    private static final String TXT_CANNOTGUARD = "你只能用近战武器或盾牌来格挡!";
     private static final String TXT_GUARD = "guard";
 
     private static final String AC_GUARD = "格挡";

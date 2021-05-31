@@ -236,8 +236,8 @@ public class SewerBossLevel extends Level {
                 bossAppeared = true;
 
                 Mob boss = Bestiary.mob(Dungeon.depth);
-                GLog.i("The chest was trapped! Security system locks the doors!");
-                GLog.i("\nSomething wicked comes this way, attracted by the sound of alarm!");
+                GLog.i("安全系统开启，你被锁在了这里面！");
+                GLog.i("\n一个邪恶的东西被警报声惊醒了!");
 
                 boss.pos = getRandomSpawnPoint();
                 boss.state = boss.HUNTING;
