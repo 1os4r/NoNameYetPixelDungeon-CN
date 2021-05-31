@@ -47,7 +47,7 @@ public class BladeCritical extends Critical {
     public int proc_crit(Char attacker, Char defender, int damage ) {
         boolean improvedCrit= isBetterCriticals();
         if (defender.isEthereal()) {
-            defender.sprite.showStatus(CharSprite.NEGATIVE, "sliced");
+            defender.sprite.showStatus(CharSprite.NEGATIVE, "斩击");
             if (improvedCrit)
                 damage += weap.min()*1.5f;
             else
