@@ -1031,7 +1031,7 @@ public abstract class Mob extends Char {
 		
 		@Override
 		public String status() {
-			return "休眠";
+			return "睡觉";
 		}
 	}
 
