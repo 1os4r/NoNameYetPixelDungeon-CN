@@ -356,11 +356,11 @@ public class Dungeon {
 		
 		observe();
 
-		try {
-			saveAll();
-		} catch (IOException e){
-			NoNameYetPixelDungeon.reportException(e);
-		}
+//		try {
+//			saveAll();
+//		} catch (IOException e){
+//			NoNameYetPixelDungeon.reportException(e);
+//		}
 
 	}
 

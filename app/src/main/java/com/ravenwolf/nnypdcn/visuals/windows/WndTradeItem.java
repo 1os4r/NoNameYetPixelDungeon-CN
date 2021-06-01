@@ -54,7 +54,7 @@ public class WndTradeItem extends Window {
 	private static final String TXT_CANCEL		= "算了";
 	
 	private static final String TXT_SOLD	= "你卖出了%s获得%dg金币";
-	private static final String TXT_BOUGHT	= "你花%s金币购买了%dg";
+	private static final String TXT_BOUGHT	= "你花%dg金币购买了%s";
 	
 	private WndBag owner;
 
@@ -276,7 +276,7 @@ public class WndTradeItem extends Window {
 		int price = price( item );
 		Dungeon.gold -= price;
 		
-		GLog.i( TXT_BOUGHT, item.name(), price );
+		GLog.i( TXT_BOUGHT, price, item.name() );
 		
 		if (!item.doPickUp( hero )) {
 			Dungeon.level.drop( item, heap.pos ).sprite.drop();

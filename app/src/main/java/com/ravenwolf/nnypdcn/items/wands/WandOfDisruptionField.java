@@ -37,7 +37,7 @@ import com.watabou.utils.Callback;
 public class WandOfDisruptionField extends WandCombat {
 
 	{
-		name = "裂场法杖";
+		name = "力场法杖";
 		image = ItemSpriteSheet.WAND_LIFEDRAIN;
 		hitChars = false;
 	}
