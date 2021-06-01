@@ -47,7 +47,7 @@ public class BluntCritical extends Critical {
     public int proc_crit(Char attacker, Char defender, int damage ) {
 
         if(defender.isSolid()){
-            defender.sprite.showStatus( CharSprite.NEGATIVE, "crushed" );
+            defender.sprite.showStatus( CharSprite.NEGATIVE, "重击" );
             if (isBetterCriticals())
                 damage += weap.min()*1.5f;
             else

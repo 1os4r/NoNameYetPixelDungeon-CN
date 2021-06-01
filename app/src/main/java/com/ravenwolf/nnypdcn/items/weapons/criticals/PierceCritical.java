@@ -49,7 +49,7 @@ public class PierceCritical extends Critical {
             if (pierceDamage > damage) {
                 damage = (pierceDamage+damage)/2;
             }
-            defender.sprite.showStatus(CharSprite.NEGATIVE, "护甲穿透");
+            defender.sprite.showStatus(CharSprite.NEGATIVE, "穿甲");
             if (isBetterCriticals()) {
                 BuffActive.addFromDamage( defender, Bleeding.class, damage );
             }
