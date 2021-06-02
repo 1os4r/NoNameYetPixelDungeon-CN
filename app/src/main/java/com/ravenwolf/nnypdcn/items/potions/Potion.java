@@ -235,7 +235,7 @@ public abstract class Potion extends Item {
 	
 	public void shatter( int cell ) {
 		if (Dungeon.visible[cell]) {
-			GLog.i( "药瓶碎裂开来，无害的" + color() + "液体从中溅出" );
+			GLog.i( "药瓶碎裂开来，" + color() + "的液体从中溅出" );
 			Sample.INSTANCE.play( Assets.SND_SHATTER );
 			splash( cell );
 		}

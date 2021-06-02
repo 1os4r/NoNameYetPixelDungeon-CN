@@ -63,8 +63,8 @@ public class Heap implements Bundlable {
 
 	private static final String TXT_MIMIC = "这是一只拟型怪!";
 	private static final String TXT_BURNED = "地上的%s被烧毁了!";
-	private static final String TXT_BROKEN_SUCCESS = "%s被炸毁了!";
-	private static final String TXT_BROKEN_PARTIAL = "%s受损了!";
+	private static final String TXT_BROKEN_SUCCESS = "%s摧毁了%s!";
+	private static final String TXT_BROKEN_PARTIAL = "%s毁坏了部分%s!";
 
 	private static final String TXT_KNOWN_BY_BREWING = "这是一个%s!";
 

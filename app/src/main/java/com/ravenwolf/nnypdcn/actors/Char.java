@@ -1031,7 +1031,7 @@ public abstract class Char extends Actor {
 	private void knockbackDamage(int damage){
 
         if(isSolid()) {
-            sprite.showStatus(CharSprite.NEGATIVE, "crushed");
+            sprite.showStatus(CharSprite.NEGATIVE, "重击");
                 damage += damage / 2;
         }
         damage( absorb( damage ), this, Element.PHYSICAL );

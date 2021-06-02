@@ -53,7 +53,7 @@ public class WndTradeItem extends Window {
 	private static final String TXT_SELL_ALL	= "以%dg金币卖出全部";
 	private static final String TXT_CANCEL		= "算了";
 	
-	private static final String TXT_SOLD	= "你卖出了%s获得%dg金币";
+	private static final String TXT_SOLD	= "你卖出%s获得了%dg金币";
 	private static final String TXT_BOUGHT	= "你花%dg金币购买了%s";
 	
 	private WndBag owner;

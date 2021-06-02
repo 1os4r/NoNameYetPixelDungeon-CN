@@ -41,7 +41,7 @@ public class Blob extends Actor {
 	public static final int LENGTH	= Level.LENGTH;
 	
 	public int volume = 0;
-	public String name = "unspecified blob";
+	public String name = "未知单位";
 
 	public boolean[] bln;
 	public int[] cur;

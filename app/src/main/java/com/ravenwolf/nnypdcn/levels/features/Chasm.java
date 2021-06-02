@@ -159,7 +159,7 @@ public class Chasm {
 
             Heap heap = Dungeon.level.heaps.get(hero.pos);
             if (heap != null) {
-                heap.shatter( "你的重量" );
+                heap.shatter( "虚空的压力" );
             }
 
             int dmg;

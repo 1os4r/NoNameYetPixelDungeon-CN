@@ -181,7 +181,7 @@ public class GnollShaman extends MobCaster {
     @Override
     public String description() {
         return
-                "最有智慧的豺狼精通萨满魔法，这些豺狼萨满在战斗时更喜欢使用魔法以弥补力量的不足，并对那些在自己部落地位有质疑的人毫不犹豫地进行攻击。";
+                "最有智慧的豺狼精通萨满魔法，这些豺狼萨满在战斗时更喜欢使用魔法以弥补力量的不足，并对那些质疑它们地位的人毫不犹豫地进行攻击。";
     }
     
     @Override

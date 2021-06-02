@@ -93,9 +93,9 @@ public class Explosion {
             Heap heap = Dungeon.level.heaps.get(c);
             if (heap != null) {
                 if (source instanceof Robot)
-                    heap.shatter("Explosion");
+                    heap.shatter("爆炸");
                 else
-                    heap.blast("Explosion");
+                    heap.blast("爆炸");
             }
         }
 

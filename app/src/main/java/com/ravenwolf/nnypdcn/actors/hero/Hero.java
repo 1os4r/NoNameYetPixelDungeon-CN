@@ -225,7 +225,7 @@ public class Hero extends Char {
 
     public Hero(){
         super();
-        name = "you";
+        name = "你";
 
         HP = HT = 24;
         STR = STARTING_STR;
@@ -2093,6 +2093,7 @@ public class Hero extends Char {
     public void die( Object cause, Element dmg ){
 
         curAction = null;
+        Actor.fixTime();
 
         boolean rezzed = false;
         BodyArmor armor = belongings.armor;

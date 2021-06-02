@@ -213,7 +213,7 @@ public class DM300 extends MobHealthy {
 
         Heap heap = Dungeon.level.heaps.get(pos);
         if (heap != null) {
-            heap.shatter( "Boulders" );
+            heap.shatter( "落石" );
         }
 
         if (Dungeon.visible[pos]) {

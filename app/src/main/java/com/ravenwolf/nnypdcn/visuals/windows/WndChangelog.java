@@ -44,13 +44,15 @@ public class WndChangelog extends Window {
     private static final String TXT_DESCR =
 
 
-        "初步汉化的无名地牢，_基于0.3.1版本_\n" + 
+        "初步汉化的无名地牢，_基于0.3.1版本_，作者RavenWolf已授权。\n" + 
 		"目前大部分内容都已汉化，由于时间较紧，可能会存在诸多问题。" + 
-		"如有遗漏或问题，欢迎前来指正。\n\n请将主要问题描述和截图发送至邮箱：\n_1os4r21@gmail.com_\n" +
+		"如有任何意见和建议，_欢迎前来指正_！\n\n请将主要问题描述和截图发送至邮箱：\n_1os4r21@gmail.com_\n" +
         "或者QQ:_1643444316_\n" +
         "Github:\n_https://github.com/1os4r/NoNameYetPixelDungeon-CN_\n\n" +
 		"那么，祝你玩得开心！\n初始解锁了所有模式（顺带一提简单模式是真的简单！）\n" +
-		"\n";
+		"\nv0.3 修正了部分描述，修复了某些情况下不记录回合的bug" +
+        "\nv0.2 修正了部分描述错误及缺失问题，稍微优化了卡顿问题" +
+        "\nv0.1 无名地牢的初步汉化版本，解锁了全部难度模式，制造了N多bug";
 
 
 	private RenderedText txtTitle;

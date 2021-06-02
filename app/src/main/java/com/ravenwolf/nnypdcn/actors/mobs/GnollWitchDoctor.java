@@ -52,7 +52,7 @@ public class GnollWitchDoctor extends MobCaster {
 
         super( Dungeon.chapter()*3+5 );
 		
-		name = "巫医";
+		name = "豺狼巫师";
 //		name = "gnoll witchdoctor";
 		spriteClass = WitchDoctorSprite.class;
 
@@ -183,7 +183,7 @@ public class GnollWitchDoctor extends MobCaster {
     @Override
     public String description() {
         return
-                "巫医是萨满教团的最高级别，他们的治疗魔法知识使他们对军阀非常有价值，甚至可以支配他们的军队。同时也是毒药魔法的大师，使他们成为危险的敌人，最好把它们单独击败。";
+                "豺狼巫师是萨满们的最高指挥，其拥有的强大的治疗魔法，甚至可以支援远处的友军。同时它还掌握着致命的剧毒魔法，即便是在单独遇到它们时也要多加小心。";
     }
     
     @Override

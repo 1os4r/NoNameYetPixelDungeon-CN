@@ -91,7 +91,7 @@ public class BoulderTrap extends Trap {
 
         Heap heap = Dungeon.level.heaps.get(pos);
         if (heap != null) {
-            heap.shatter( "Trap" );
+            heap.shatter( "陷阱" );
         }
 
         if (Dungeon.visible[pos]) {

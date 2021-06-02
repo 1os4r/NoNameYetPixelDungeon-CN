@@ -125,7 +125,7 @@ public abstract class Explosives extends Item {
     @Override
     public boolean doPickUp(Hero hero) {
         if (fuse != null) {
-            GLog.w( "You quickly snuff the bomb`s fuse");
+            GLog.w( "你迅速掐灭了炸弹的引线。");
             fuse = null;
         }
         return super.doPickUp(hero);

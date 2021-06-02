@@ -126,16 +126,16 @@ public class GnollHunter extends MobRanged {
         return "豺狼人是有着土狼模样的人形生物。"
 
                 + ( Dungeon.hero.heroClass == HeroClass.WARRIOR ?
-                "这一只豺狼人看起来像是猎人之类的，它使用的锋利的棍子看起来对你来说构不成威胁。" : "" )
+                "这一只豺狼人看起来像是猎人之类的，它们所使用的木棍并不能对你造成太大威胁。" : "" )
 
                 + ( Dungeon.hero.heroClass == HeroClass.SCHOLAR ?
-                "说来奇怪，它们很少被发现有如此接近人类居住点的行为，而更喜欢到荒郊野外栖身。" : "" )
+                "说来奇怪，它们很少被发现在人类的居住点附近，反而是更喜欢在荒郊野外游荡。" : "" )
 
                 + ( Dungeon.hero.heroClass == HeroClass.BRIGAND ?
-                "这可能就是关于这个物种的一切了，不管怎样，谁在乎呢？" : "" )
+                "这就是关于这个生物的的一切了，不论如何，谁会去在意这些呢？" : "" )
 
                 + ( Dungeon.hero.heroClass == HeroClass.ACOLYTE ?
-                "它们似乎在与野兽和地下的居民们结盟，也许，甚至是...支配它们？" : "" )
+                "它似乎与周围的野兽和地下的强盗们达成了结盟，也许，又或者是...领导它们？！" : "" )
 
                 ;
 	}
