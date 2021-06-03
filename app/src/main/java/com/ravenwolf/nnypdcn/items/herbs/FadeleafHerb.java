@@ -53,7 +53,7 @@ public class FadeleafHerb extends Herb {
 
     @Override
     public String desc() {
-        return "据说吃下这个药草会使人步入黑暗之中，让敌人更难发现，同时他还会对你施加衰败的力量。它通常被用来炼制隐形药剂。";
+        return "据说吃下这个药草会使人步入黑暗之中，让敌人更难发现，同时它还会对你施加衰败的力量。它通常被用来炼制隐形药剂。";
     }
 }
 

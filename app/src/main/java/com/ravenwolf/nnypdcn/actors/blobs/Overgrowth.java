@@ -151,7 +151,7 @@ public class Overgrowth extends Blob {
     @Override
     public String tileDesc() {
         return "一些充满了能量的植物正在此处疯狂生长。" +
-                "路过这里时要多加小心，因为他同样会缠绕住你！";
+                "路过这里时要多加小心，因为它同样会缠绕住你！";
     }
 	
 	@Override

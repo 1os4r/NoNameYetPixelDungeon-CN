@@ -133,7 +133,7 @@ public class GnollBerserker extends MobPrecise {
     @Override
     public String description() {
         return
-                "暴徒是豺狼人中体型最庞大，力量最强壮且生命力最顽强的怪物。血量较低时，他们会陷入狂暴之中，对敌人造成更高的伤害。";
+                "暴徒是豺狼人中体型最庞大，力量最强壮且生命力最顽强的怪物。血量较低时，它们会进入狂暴状态，对敌人造成更高的伤害。";
     }
 
     @Override

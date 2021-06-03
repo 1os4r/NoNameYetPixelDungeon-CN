@@ -73,7 +73,7 @@ public class FellFire extends Debuff {
 
     @Override
     public String description() {
-        return "这种奇怪的火焰比普通的火要危险得多，因为任何人都无法扑灭它，只能等它自己燃烧殆尽。不过幸运的是，他不会引燃其他物品";
+        return "这种奇怪的火焰比普通的火要危险得多，因为任何人都无法扑灭它，只能等它自己燃烧殆尽。不过幸运的是，它不会引燃其他物品";
     }
 	
 	@Override

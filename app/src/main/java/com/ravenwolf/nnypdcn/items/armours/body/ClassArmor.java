@@ -125,6 +125,6 @@ abstract public class ClassArmor extends BodyArmor {
 	
 	@Override
 	public String desc() {
-		return "他看起来棒极了！";
+		return "它看起来棒极了！";
 	}
 }

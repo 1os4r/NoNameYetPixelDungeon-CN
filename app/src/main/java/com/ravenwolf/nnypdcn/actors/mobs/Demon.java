@@ -232,7 +232,7 @@ public class Demon extends MobPrecise {
 	@Override
 	public String description() {
 		return
-			"上等恶魔是古神所支配的最恶毒、最强大、最危险的恶魔！他们拥有卓越的身体强度和魔法技能，并且会可以召唤出一些低阶恶魔辅助战斗";
+			"上等恶魔是古神所支配的最恶毒、最强大、最危险的恶魔！它们拥有卓越的身体强度和魔法技能，并且会可以召唤出一些低阶恶魔辅助战斗";
 	}
 
 

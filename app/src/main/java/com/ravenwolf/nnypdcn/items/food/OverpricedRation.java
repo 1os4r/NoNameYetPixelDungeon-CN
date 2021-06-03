@@ -38,7 +38,7 @@ public class OverpricedRation extends Food {
 
 	@Override
 	public String desc() {
-		return "他看起来和普通口粮一样，就是小了点";
+		return "它看起来和普通口粮一样，就是小了点";
 	}
 
 	@Override

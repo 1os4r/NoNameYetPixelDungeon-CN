@@ -585,7 +585,7 @@ public abstract class Weapon extends EquipableItem {
         info.append( s );
 
         if( isIdentified() && bonus > 0 ) {
-            info.append( "他似乎已被_升级_。" );
+            info.append( "它似乎已被_升级_。" );
         } else if( isCursedKnown() ) {
             info.append( !isCursed() ? "它看起来并_没有被诅咒_。" :
                     "你能感受到它似乎充满了_恶意_的魔力"/* + name */+"。" );

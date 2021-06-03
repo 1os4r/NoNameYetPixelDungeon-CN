@@ -343,7 +343,7 @@ public class Necromancer extends MobCaster {
     @Override
     public String description() {
         return
-                "死灵法师是所有巫师中最受争议的，因为他诅咒了自己的灵魂，用自己的人性交换了一种起死回生的能力，并对所有生者发动战争";
+                "死灵法师是所有巫师中最受争议的，因为它诅咒了自己的灵魂，用自己的人性交换了一种起死回生的能力，并对所有生者发动战争";
     }
 
     private class Hunting extends Mob.Hunting {
@@ -391,7 +391,7 @@ public class Necromancer extends MobCaster {
                         breaks++;
                         spend(TICK);
                         Sample.INSTANCE.play(Assets.SND_ZAP);
-                        yell( "杀了他，我的仆从！" );
+                        yell( "杀掉那个人，我的仆从！" );
                         specialCD += 4;
                         return false;
                     } else {

@@ -81,7 +81,7 @@ public abstract class WandCombat extends Wand {
 
             info.append(
                 "这个法杖目前_" + ( isCursedKnown() && isCursed() ? "是诅咒的" : "未被鉴定" ) +
-                "_。一般情况下他的充能数为_" + maxCharges( 0 ) + "_。" /*and will probably " +
+                "_。一般情况下它的充能数为_" + maxCharges( 0 ) + "_。" /*and will probably " +
                 "have _" + chance + "% chance_ to miscast when used."*/
             );
 

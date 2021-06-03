@@ -62,7 +62,7 @@ public class Amok extends Debuff {
 
     @Override
     public String description() {
-        return "狂乱会导致当前生物进入一种极度愤怒和混乱的状态，狂乱的生物会不分敌我的攻击任何靠近他的单位。甚至于他们自己！";
+        return "狂乱会导致当前生物进入一种极度愤怒和混乱的状态，狂乱的生物会不分敌我的攻击任何靠近它的单位。甚至于它们自己！";
     }
 
 

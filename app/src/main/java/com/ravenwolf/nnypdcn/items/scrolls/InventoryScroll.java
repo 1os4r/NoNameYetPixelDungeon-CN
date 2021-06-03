@@ -33,7 +33,7 @@ public abstract class InventoryScroll extends Scroll {
 	protected String inventoryTitle = "请选择一个物品";
 	protected WndBag.Mode mode = WndBag.Mode.ALL;
 	
-	private static final String TXT_WARNING	= "你真的要终止这张卷轴的效果吗？他依然会被消耗掉。";
+	private static final String TXT_WARNING	= "你真的要终止这张卷轴的效果吗？它依然会被消耗掉。";
 	private static final String TXT_YES		= "是的，我知道自己在做什么";
 	private static final String TXT_NO		= "不，我改变主意了";
 	

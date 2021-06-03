@@ -364,7 +364,7 @@ public abstract class Ring extends EquipableItem {
             info.append( " " );
 
             if( isEquipped( Dungeon.hero ) ){
-                info.append( "邪恶的力量阻止将他取下" );
+                info.append( "邪恶的力量阻止将它取下" );
             } else {
                 info.append( "你能感受到它似乎充满了_恶意_的魔力" );
             }

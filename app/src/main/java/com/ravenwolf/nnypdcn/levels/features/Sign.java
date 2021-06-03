@@ -138,7 +138,7 @@ public class Sign {
 		} else {
 
 			if (Dungeon.CAVES_PATHWAY == Dungeon.depth) {
-				GameScene.show(new WndMessage("这里好像有一扇门，但是他被魔法封印了"));
+				GameScene.show(new WndMessage("这里好像有一扇门，但是它被魔法封印了"));
 			} else {
 
 				int index = Dungeon.depth - 1;

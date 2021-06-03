@@ -95,6 +95,6 @@ public class GnollBrute extends MobPrecise {
     @Override
     public String description() {
         return
-                "豺狼暴徒是豺狼人中体型最庞大，力量最强壮且生命力最顽强的精英。尽管智力不高，但却是非常凶猛的斩杀。他们可以用盾牌有效地阻挡攻击，特别是远程攻击。";
+                "豺狼暴徒是豺狼人中体型最庞大，力量最强壮且生命力最顽强的精英。尽管智力不高，但却是非常凶猛的斩杀。它们可以用盾牌有效地阻挡攻击，特别是远程攻击。";
     }
 }

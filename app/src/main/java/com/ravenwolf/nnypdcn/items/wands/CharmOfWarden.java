@@ -368,7 +368,7 @@ public class CharmOfWarden extends WandUtility {
         @Override
         public String description() {
             return
-                "这些远古的哨位，由一些翡翠的碎片完美组合而成。他们会攻击视野内任何想要接近的敌人";
+                "这些远古的哨位，由一些翡翠的碎片完美组合而成。它们会攻击视野内任何想要接近的敌人";
         }
 
         private static final String STATS	= "stats";

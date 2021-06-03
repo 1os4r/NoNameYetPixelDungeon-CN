@@ -112,7 +112,7 @@ public class ScrollOfChallenge extends Scroll {
 	@Override
 	public String desc() {
 		return
-                "大声阅读其上的符文，这张卷轴将会赐予你一股强大的怒火，短时间内大幅提高你的伤害。但是他会激怒本层所有的生物，同时将你的位置暴露无遗。";
+                "大声阅读其上的符文，这张卷轴将会赐予你一股强大的怒火，短时间内大幅提高你的伤害。并且它会激怒本层所有的生物，同时将你的位置暴露无遗。";
 	}
 
     @Override

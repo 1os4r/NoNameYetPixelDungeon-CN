@@ -88,7 +88,7 @@ public class Burning extends Debuff {
 
     @Override
     public String description() {
-        return "火焰覆盖了你的身体! 在燃烧的状态下你会持续受到伤害，并且他还可能会烧毁你身上的易燃物品，敌人同样也更容易发现你";
+        return "火焰覆盖了你的身体! 在燃烧的状态下你会持续受到伤害，并且它还可能会烧毁你身上的易燃物品，敌人同样也更容易发现你";
     }
 	
 	@Override

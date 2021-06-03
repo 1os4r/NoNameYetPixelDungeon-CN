@@ -63,6 +63,6 @@ public class Boomerangs extends ThrowingWeaponSpecial {
 	public String desc() {
 		return 
 			"在没有命中目标时这些弯曲的回旋镖会自动飞回投掷者手中。因它的设计并不锋利" + 
-            "所以他并不能造成大量的伤害，但精准的命中敌人时有可能会让敌人陷入眩晕之中。";
+            "所以它并不能造成大量的伤害，但精准的命中敌人时有可能会让敌人陷入眩晕之中。";
 	}
 }

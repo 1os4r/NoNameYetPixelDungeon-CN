@@ -51,6 +51,6 @@ public class SungrassHerb extends Herb {
 
     @Override
     public String desc() {
-        return "阳春草拥有不错的治疗效果，动物们通常会吃掉它来清除体内的毒素。他通常被用来炼制治疗药剂。";
+        return "阳春草拥有不错的治疗效果，动物们通常会吃掉它来清除体内的毒素。它通常被用来炼制治疗药剂。";
     }
 }

@@ -357,7 +357,7 @@ public class CharmOfThorns extends WandUtility {
         public String description() {
             return
                 "刺藤是一种有着自主意识的植物，会攻击任何企图靠近的东西。它们锋利尖刺可以造成严重的伤害，" + 
-				"不过他们会随着时间的流逝逐渐枯萎，并且非常害怕火焰";
+				"不过它们会随着时间的流逝逐渐枯萎，并且非常害怕火焰";
         }
 
         private static final String STATS	= "stats";

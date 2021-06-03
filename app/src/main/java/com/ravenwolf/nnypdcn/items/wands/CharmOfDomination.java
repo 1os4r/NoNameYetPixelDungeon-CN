@@ -75,7 +75,7 @@ public class CharmOfDomination extends WandUtility{
 	public String desc() {
 		return
 			"释放这个符咒会催眠命中的敌人，使你暂时支配它的意志，" +
-			"支配效果内如果你再次攻击这个敌人，那么他就会脱离你的控制。不过支配的效果依旧会削弱它反抗的能力";
+			"支配效果内如果你再次攻击这个敌人，那么它就会脱离你的控制。不过支配的效果依旧会削弱它反抗的能力";
 	}
 
 	protected String getEffectDescription(int min , int max, boolean known){

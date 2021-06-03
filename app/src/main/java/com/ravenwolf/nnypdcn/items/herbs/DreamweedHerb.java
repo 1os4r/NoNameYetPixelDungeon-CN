@@ -54,7 +54,7 @@ public class DreamweedHerb extends Herb {
     @Override
     public String desc() {
 
-        return "人们说，咀嚼幻视草会使你感知到周围生物的思维，但同时他也会导致你暂时性的失明。它通常被用来炼制灵视药剂。";
+        return "人们说，咀嚼幻视草会使你感知到周围生物的思维，但同时它也会导致你暂时性的失明。它通常被用来炼制灵视药剂。";
 
         /*return "Chewing Dreamweed herbs will sharpen your senses, increasing concentration and mind resistance."+
                 "This is a stimulant herb, combined with any elemental herb will create a buff potion";*/
