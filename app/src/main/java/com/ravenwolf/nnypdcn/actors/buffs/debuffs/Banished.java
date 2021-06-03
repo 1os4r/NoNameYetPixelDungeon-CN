@@ -38,11 +38,11 @@ public class Banished extends Debuff {
 
     @Override
     public String toString() {
-        return "Banished";
+        return "放逐";
     }
 
     @Override
-    public String statusMessage() { return "banished"; }
+    public String statusMessage() { return "放逐"; }
 
 
     @Override

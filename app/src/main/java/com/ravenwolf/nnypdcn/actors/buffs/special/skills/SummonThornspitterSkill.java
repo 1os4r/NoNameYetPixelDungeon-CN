@@ -203,7 +203,7 @@ public class SummonThornspitterSkill extends BuffSkill {
         public void interact() {
             Dungeon.hero.sprite.operate(pos);
 
-            GLog.i("你回收了荆棘之主");
+            GLog.i("你回收了荆棘之主。");
 
             SummonThornspitterSkill skill = Dungeon.hero.buff(SummonThornspitterSkill.class);
             if (skill!=null) {

@@ -387,7 +387,7 @@ public abstract class Shield extends Armour {
             info.append( "" + ( isIdentified() && bonus != 0 ? "同时" : "不过" ) + "，它携带着_" + glyph.desc(this) + "_的附魔。" );
         }
 
-        info.append( "这是一件_" + lootChapterAsString() +"_的盾牌。" );
+        info.append( "这是一件_" + lootChapterAsString() +"_盾牌。" );
 
         return info.toString();
 

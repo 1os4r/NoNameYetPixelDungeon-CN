@@ -89,7 +89,7 @@ public abstract class Char extends Actor {
 
 //	protected static final String TXT_HIT		= "%s hit %s";
 //	protected static final String TXT_KILL		= "You %s...";
-	protected static final String TXT_DEFEAT	= "你击败了%s";
+	protected static final String TXT_DEFEAT	= "你击败了%s。";
 
 	protected static final String TXT_DODGED	= "闪避";
 	protected static final String TXT_MISSED	= "未命中";
@@ -282,7 +282,7 @@ public abstract class Char extends Actor {
         //FIXME
 	    if (defender instanceof Tengu.TenguClone){
             ((Tengu.TenguClone)defender).reveal();
-            GLog.w("你攻击了幻影");
+            GLog.w("你攻击了幻影。");
             return false;
         }
 /*

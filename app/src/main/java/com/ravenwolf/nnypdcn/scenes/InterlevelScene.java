@@ -62,7 +62,7 @@ public class InterlevelScene extends PixelScene {
     private static final String ERR_FILE_NOT_FOUND	= "文件缺失";
     private static final String ERR_GENERIC			= "发生了一些意想不到的错误..."	;
 
-    public static enum Mode {
+    public enum Mode {
         DESCEND, ASCEND, CONTINUE, RESURRECT, RETURN, FALL
     };
     public static Mode mode;

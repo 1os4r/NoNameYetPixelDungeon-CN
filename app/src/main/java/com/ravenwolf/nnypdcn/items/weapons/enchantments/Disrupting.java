@@ -53,7 +53,7 @@ public class Disrupting extends Weapon.Enchantment {
 
     @Override
     protected String desc_p() {
-        return "赋予武器扰乱敌人行动的魔法";
+        return "赋予武器扰乱敌人的魔法";
     }
 
     @Override
