@@ -60,7 +60,7 @@ public class ScrollOfRemoveCurse extends InventoryScroll {
 	@Override
 	public String desc() {
 		return
-			"卷轴上的咒语可以瞬间清除任何一件武器、护甲、戒指、法杖、符咒上的诅咒";
+			"卷轴上的咒语可以瞬间清除任何一件武器、护甲、戒指、法杖、魔咒上的诅咒";
 	}
 
     @Override

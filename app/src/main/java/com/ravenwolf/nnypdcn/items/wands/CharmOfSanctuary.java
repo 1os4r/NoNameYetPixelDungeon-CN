@@ -43,7 +43,7 @@ import com.watabou.utils.Callback;
 public class CharmOfSanctuary extends WandUtility {
 
 	{
-		name = "神圣符咒";
+		name = "神圣魔咒";
 		hitChars = false;
 		image = ItemSpriteSheet.CHARM_BLESS;
 	}
@@ -83,11 +83,11 @@ public class CharmOfSanctuary extends WandUtility {
 	@Override
 	public String desc() {
 		return 
-			"这个符咒可以制造出一片神圣的光明区域，并驱散一些不洁的魔法和怪物，而使用者则会受到圣光的庇护，提高自身的魔抗和物抗";
+			"这个魔咒可以制造出一片神圣的光明区域，并驱散一些不洁的魔法和怪物，而使用者则会受到圣光的庇护，提高自身的魔抗和物抗";
 	}
 
 	protected String getEffectDescription(int min , int max, boolean known){
-		return  "这个符咒" +(known? "":"(可能) ")+"会制造出_" + min/2 + "-" + max/2 + "回合的_圣光区域 ";
+		return  "这个魔咒" +(known? "":"(可能) ")+"会制造出_" + min/2 + "-" + max/2 + "回合的_圣光区域 ";
 	}
 
 }

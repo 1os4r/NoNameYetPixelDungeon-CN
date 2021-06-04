@@ -39,7 +39,7 @@ import com.watabou.utils.Callback;
 public class CharmOfDomination extends WandUtility{
 
 	{
-		name = "支配符咒";
+		name = "支配魔咒";
 		image = ItemSpriteSheet.CHARM_DOMINATION;
 	}
 
@@ -74,11 +74,11 @@ public class CharmOfDomination extends WandUtility{
 	@Override
 	public String desc() {
 		return
-			"释放这个符咒会催眠命中的敌人，使你暂时支配它的意志，" +
+			"释放这个魔咒会催眠命中的敌人，使你暂时支配它的意志，" +
 			"支配效果内如果你再次攻击这个敌人，那么它就会脱离你的控制。不过支配的效果依旧会削弱它反抗的能力";
 	}
 
 	protected String getEffectDescription(int min , int max, boolean known){
-		return  "这个符咒" +(known? "":"(可能) ")+"会支配敌人_" + min + "-" + max + "回合_";
+		return  "这个魔咒" +(known? "":"(可能) ")+"会支配敌人_" + min + "-" + max + "回合_";
 	}
 }

@@ -69,7 +69,7 @@ public class Shocked extends Debuff {
     @Override
     public String description() {
         return "电流遍布在你的身上，再次被击中或进入水中将会释放这些电流，" +
-                "同时，你的法杖和符咒的充能速度会因为电流的影响而变得缓慢。";
+                "同时，你的法杖和魔咒的充能速度会因为电流的影响而变得缓慢。";
     }
 
     @Override

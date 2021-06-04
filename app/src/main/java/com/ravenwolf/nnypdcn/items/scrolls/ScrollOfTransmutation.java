@@ -372,7 +372,7 @@ public class ScrollOfTransmutation extends InventoryScroll {
 	@Override
 	public String desc() {
 		return
-			"这张卷轴能够将一个道具转换成其他价值近似的道具，只能用在武器，护甲，戒指，法杖和符咒上。";
+			"这张卷轴能够将一个道具转换成其他价值近似的道具，只能用在武器，护甲，戒指，法杖和魔咒上。";
 	}
 
     @Override

@@ -47,7 +47,7 @@ public class CharmOfBlink extends WandUtility {
 
 
 	{
-		name = "闪烁符咒";
+		name = "闪烁魔咒";
         hitChars = false;
 		image = ItemSpriteSheet.CHARM_BLINK;
 	}
@@ -142,13 +142,13 @@ public class CharmOfBlink extends WandUtility {
 	@Override
 	public String desc() {
 		return
-			"这个符咒由两个扭曲的魔法枝干和闪烁水晶组成，使用它的力量可以使你同化成具有穿梭性的元素，" +
+			"这个魔咒由两个扭曲的魔法枝干和闪烁水晶组成，使用它的力量可以使你同化成具有穿梭性的元素，" +
 			"允许你快速向前穿梭，并伤害路上穿透过的敌人，不过一些墙壁等障碍物无法穿透。";
 				
 	}
 
 	protected String getEffectDescription(int min , int max, boolean known){
 		int reach=maxCharges(known? bonus : 0)*3;
-		return  "这个符咒的_最大闪烁范围" +(known? "":"(可能) ")+"是"+reach+"_，并且会造成 _" + min + "-" + max + "点伤害_";
+		return  "这个魔咒的_最大闪烁范围" +(known? "":"(可能) ")+"是"+reach+"_，并且会造成 _" + min + "-" + max + "点伤害_";
 	}
 }

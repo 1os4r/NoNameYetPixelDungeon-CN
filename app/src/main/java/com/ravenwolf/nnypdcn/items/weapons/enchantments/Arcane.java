@@ -42,7 +42,7 @@ public class Arcane extends Weapon.Enchantment {
 
     @Override
     protected String name_p() {
-        return "奥数%s";
+        return "奥术%s";
     }
 
     @Override

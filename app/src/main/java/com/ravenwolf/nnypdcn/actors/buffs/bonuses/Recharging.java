@@ -45,7 +45,7 @@ public class Recharging extends Bonus {
 
     @Override
     public String description() {
-        return "魔力在你的体内奔腾而过，显著提高你的法杖和符咒的充能速率";
+        return "魔力在你的体内奔腾而过，显著提高你的法杖和魔咒的充能速率";
     }
     @Override
     public boolean act() {

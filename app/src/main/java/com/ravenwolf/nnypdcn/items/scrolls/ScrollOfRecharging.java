@@ -31,7 +31,7 @@ import com.ravenwolf.nnypdcn.visuals.effects.particles.EnergyParticle;
 
 public class ScrollOfRecharging extends Scroll {
 
-    private static final String TXT_MESSAGE	= "一股能量在你体内奔腾而过，使你的法杖和符咒逐渐恢复了活力!";
+    private static final String TXT_MESSAGE	= "一股能量在你体内奔腾而过，使你的法杖和魔咒逐渐恢复了活力!";
 
 	{
 		name = "充能卷轴";
@@ -59,7 +59,7 @@ public class ScrollOfRecharging extends Scroll {
     @Override
 	public String desc() {
 		return
-			"阅读这张卷轴时，会释放出强大的能量会为背包里所有的法杖和符咒恢复充能";
+			"阅读这张卷轴时，会释放出强大的能量会为背包里所有的法杖和魔咒恢复充能";
 	}
 
     @Override

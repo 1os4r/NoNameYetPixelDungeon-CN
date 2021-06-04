@@ -158,6 +158,10 @@ public class QuickSlot extends Button implements WndBag.Listener {
                     }
 				}
 			}
+            @Override
+            protected boolean onLongClick() {
+                return QuickSlot.this.onLongClick();
+            }
 /*			@Override
 			protected boolean onLongClick() {
 			    if (QuickSlot.this != quickslotX)
@@ -235,9 +239,9 @@ public class QuickSlot extends Button implements WndBag.Listener {
 	
 	@Override
 	protected boolean onLongClick() {
-        if( this == quickslotX ) {
-            slot.longClick();
-            //GameScene.selectItem(this, WndBag.Mode.OFFHAND, TXT_SELECT_ITEM_OFFHAND);
+        if( this == quickslot0 || this == quickslotX ) {
+           slot.longClick();
+           // GameScene.selectItem(this, WndBag.Mode.OFFHAND, TXT_SELECT_ITEM_OFFHAND);
         } else {
             GameScene.selectItem(this, WndBag.Mode.QUICKSLOT, TXT_SELECT_ITEM_QUICKSLOT);
         }

@@ -234,7 +234,7 @@ public abstract class Goo extends MobEvasive {
                 if( HP >= HT ) {
                     beckon( Dungeon.hero.pos );
                     Dungeon.hero.interrupt( "你被一种不好的感觉惊醒。" );
-                    GLog.i("黏咕被唤醒了！");
+                    GLog.i("粘咕被唤醒了！");
                 }
             }
 
@@ -296,7 +296,7 @@ public abstract class Goo extends MobEvasive {
 
                     if (Dungeon.visible[pos]) {
                         sprite.showStatus(CharSprite.DEFAULT, "ZZZzzz...");
-                        GLog.i("黏咕已筋疲力尽！");
+                        GLog.i("粘咕已筋疲力尽！");
                     }
 
                     sprite.idle();

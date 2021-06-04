@@ -42,7 +42,7 @@ import com.watabou.utils.Callback;
 public class CharmOfShadows extends WandUtility {
 
 	{
-		name = "暗影符咒";
+		name = "暗影魔咒";
 		hitChars = false;
 		image = ItemSpriteSheet.CHARM_SHADOWS;
 	}
@@ -85,7 +85,7 @@ public class CharmOfShadows extends WandUtility {
 	@Override
 	public String desc() {
 		return 
-			"由一些黑曜石制成的符咒，你能感受到它周围有一些黑雾冒出，释放它对目标位置造成暗影爆炸，伤害范围内的敌人，并阻挡黑雾范围内所有生物的视线。";
+			"由一些黑曜石制成的魔咒，你能感受到它周围有一些黑雾冒出，释放它对目标位置造成暗影爆炸，伤害范围内的敌人，并阻挡黑雾范围内所有生物的视线。";
 
 	}
 	

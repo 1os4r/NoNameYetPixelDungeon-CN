@@ -54,7 +54,7 @@ public class WhirlvineHerb extends Herb {
 
     @Override
     public String desc() {
-        return "这个植物中存储着大量的魔法，吃掉它会使你全省充满能量，回复你法杖和符咒的充能，但是同时这股能量会使你感到晕厥。它通常被用来炼制浮空药剂。";
+        return "这个植物中存储着大量的魔法，吃掉它会使你全省充满能量，回复你法杖和魔咒的充能，但是同时这股能量会使你感到晕厥。它通常被用来炼制浮空药剂。";
                 //+"This is a therapeutic herb, can be used to brew healing and mystical potions if combined with other therapeutic herb";
     }
 }

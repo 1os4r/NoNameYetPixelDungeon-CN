@@ -49,7 +49,7 @@ public class RingOfSorcery extends Ring {
         }
 
         StringBuilder desc = new StringBuilder(
-                "这枚戒指会增加佩戴者的魔能属性，这枚戒指通常被各种法师使用，因为它会直接提升佩戴者对于法杖和符咒的控制" 
+                "这枚戒指会增加佩戴者的魔能属性，这枚戒指通常被各种法师使用，因为它会直接提升佩戴者对于法杖和魔咒的控制" 
         );
 
         desc.append( "\n\n" );

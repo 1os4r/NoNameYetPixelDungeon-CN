@@ -79,7 +79,7 @@ public abstract class WandUtility extends Wand {
     }
 
     protected String getType(){
-        return "符咒";
+        return "魔咒";
     }
 
     @Override
@@ -119,7 +119,7 @@ public abstract class WandUtility extends Wand {
         if ( !isIdentified() ){
 
             info.append(
-                    "这个符咒_" + ( isCursedKnown() && isCursed() ? "是诅咒的" : "未被鉴定" ) +"_"
+                    "这个魔咒_" + ( isCursedKnown() && isCursed() ? "是诅咒的" : "未被鉴定" ) +"_"
             );
 
             info.append( p );
@@ -134,7 +134,7 @@ public abstract class WandUtility extends Wand {
         } else {
 
             info.append(
-                    "这个符咒_" + ( isCursed() ? "是诅咒的" : "未被诅咒" ) + "_。当前充能数为_" +
+                    "这个魔咒_" + ( isCursed() ? "是诅咒的" : "未被诅咒" ) + "_。当前充能数为_" +
                             getCharges() + "/" + maxCharges() + "_。"/* and will have _" + chance +"%_ " +
                 "chance to " + ( bonus < 0 ? "miscast when used." : "squeeze an additional charge." )*/
             );
@@ -152,7 +152,7 @@ public abstract class WandUtility extends Wand {
     }
 
     protected String getEffectDescription(int min , int max, boolean known){
-       return  "这个符咒" +(known? "":"(可能) ")+"会造成_" + min + "-" + max + "点伤害_";
+       return  "这个魔咒" +(known? "":"(可能) ")+"会造成_" + min + "-" + max + "点伤害_";
     }
 
 }

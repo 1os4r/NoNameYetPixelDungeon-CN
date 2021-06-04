@@ -44,7 +44,7 @@ import com.watabou.utils.Callback;
 public class CharmOfBlastWave extends WandUtility {
 
 	{
-		name = "冲击符咒";
+		name = "冲击魔咒";
 		image = ItemSpriteSheet.CHARM_BLAST;
 	}
 
@@ -101,7 +101,7 @@ public class CharmOfBlastWave extends WandUtility {
 	@Override
 	public String desc() {
 		return
-				"这个符咒的核心处有个金属水晶在缓慢旋转，可以在目标位置引发一个强烈的爆炸，将会击飞并伤害周围的多数敌人。";
+				"这个魔咒的核心处有个金属水晶在缓慢旋转，可以在目标位置引发一个强烈的爆炸，将会击飞并伤害周围的多数敌人。";
 	}
 
 }

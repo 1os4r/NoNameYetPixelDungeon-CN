@@ -79,7 +79,7 @@ public enum HeroClass {
 //            "Should've been a simple choice, normally. But... this one is in the Dungeon! There is a lots of rumors about this place - evil magics and stuff. You know how it goes with all these spellcasting bastards and their experiments.",
 //            "Argh, to hell with that! You have always been a gambler. Nobody would say that you have let the Reaper claim you the easy way. And, who knows... After all of this is done, maybe you'll keep this trinket for yourself?",
 
-            "在潜行和敏捷行动领域里，没有人能与盗贼比肩，虽然他只有通过使用轻型护甲时才能更有效的利用自己的天赋。但他在武器运用和身体素质方面也毫不逊色。但是由于他非常的厌恶和魔法有关的事务，所以他对魔法，尤其是法杖和符咒的运用很差，不然游戏中最强的职业必定非他莫属。",
+            "在潜行和敏捷行动领域里，没有人能与盗贼比肩，虽然他只有通过使用轻型护甲时才能更有效的利用自己的天赋。但他在武器运用和身体素质方面也毫不逊色。但是由于他非常的厌恶和魔法有关的事务，所以他对魔法，尤其是一些魔法道具的运用很差，不然游戏中最强的职业必定非他莫属。",
             "游玩本角色需要玩家对游戏机制的基本了解，因此他通常更适合经验丰富的玩家游玩。",
     };
 
@@ -88,7 +88,7 @@ public enum HeroClass {
 //            "All threads lead here. All these years you've spent on seeking the Amulet weren't in vain. The key to all power imaginable, to all knowledge obtainable is hidden in this darkness.",
 //            "You only need to brace yourself and make your first step. Your search has ended here. And here, it has only began.",
 
-            "法师精通于各种法杖和符咒的运用之道。绝佳的魔能属性允许他以更高的速率赋予法杖充能，并且在法术领域无人能出其右。常年封闭于研究室的生活使它的感官变得迟钝，使它的命中和感知能力低于其他角色，迫使他更加依赖于魔法深入地牢。",
+            "法师精通于各种法杖和魔咒的运用之道。绝佳的魔能属性允许他以更高的速率赋予法杖充能，并且在法术领域无人能出其右。常年封闭于研究室的生活使它的感官变得迟钝，使它的命中和感知能力低于其他角色，迫使他更加依赖于魔法深入地牢。",
             "不过以同僚的标准来看，他仍然算得上是强壮且敏捷。武器的低适应性和对法杖的极度依赖使得这名角色更需要一定的技巧来游玩，因此该职业仅推荐熟练者游玩。",
     };
 
@@ -143,8 +143,8 @@ public enum HeroClass {
     };
 
     public static final String[] HUN_DETAILS = {
-            "· 投索",
-            "· 弹药x30",
+            "· 短弓",
+            "· 箭矢x30",
             "· 匕首",
             "· 精灵斗篷",
         //    "\u007F crafting kit",

@@ -43,7 +43,7 @@ import com.watabou.utils.Callback;
 public class CharmOfDecay extends WandUtility {
 
 	{
-		name = "衰变符咒";
+		name = "衰变魔咒";
 		image = ItemSpriteSheet.CHARM_BONE;
 	}
 
@@ -81,10 +81,10 @@ public class CharmOfDecay extends WandUtility {
 
 	@Override
 	public String desc() {
-		return 	"这个符咒由一些骸骨和紫水晶制成，它会释放出衰变的能量，命中敌人后会持续的降低它们的生命，并且削弱它们的伤害和抗性。当对着一个空地释放时，则会造成一定范围内的恶毒气体";
+		return 	"这个魔咒由一些骸骨和紫水晶制成，它会释放出衰变的能量，命中敌人后会持续的降低它们的生命，并且削弱它们的伤害和抗性。当对着一个空地释放时，则会造成一定范围内的恶毒气体";
 	}
 
 	protected String getEffectDescription(int min , int max, boolean known){
-		return  "这个符咒" +(known? "":"(可能) ")+"会造成_" + min + "-" + max + "_点的衰变伤害";
+		return  "这个魔咒" +(known? "":"(可能) ")+"会造成_" + min + "-" + max + "_点的衰变伤害";
 	}
 }

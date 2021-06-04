@@ -56,7 +56,7 @@ import java.util.HashSet;
 public class CharmOfThorns extends WandUtility {
 
 	{
-		name = "荆棘符咒";
+		name = "荆棘魔咒";
         image = ItemSpriteSheet.CHARM_THORN;
 	}
 
@@ -135,7 +135,7 @@ public class CharmOfThorns extends WandUtility {
     protected String getEffectDescription(int min , int max, boolean known){
 
 	    int bonusHP=maxCharges(known? bonus : 0)*3;
-        return  "这个符咒召唤出的刺藤" +(known? "":"(可能) ")+"会造成_" + min *2 / 5+ "-" + max * 3 / 4+ "点伤害_，" +
+        return  "这个魔咒召唤出的刺藤" +(known? "":"(可能) ")+"会造成_" + min *2 / 5+ "-" + max * 3 / 4+ "点伤害_，" +
                     "并且拥有_" + (min + bonusHP)+ "-" + (max +bonusHP) + "的血量_";
     }
 
@@ -217,7 +217,7 @@ public class CharmOfThorns extends WandUtility {
                 ((CharmOfThorns) Dungeon.hero.belongings.weap2).recharge(
                         (int) (((HP * 2 / 3) * lvl / HT) * ((CharmOfThorns) Dungeon.hero.belongings.weap2).rechargeRate())
                 );
-                GLog.i("你把刺藤回收到了符咒中");
+                GLog.i("你把刺藤回收到了魔咒中");
             } else {
                 GLog.i("你没能把刺藤的能量完全回收");
             }

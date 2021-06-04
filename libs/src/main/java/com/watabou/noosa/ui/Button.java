@@ -71,7 +71,7 @@ public class Button extends Component {
 					hotArea.reset();
 					processed = true;
 					onTouchUp();
-					
+
 //					Game.vibrate( 50 );
 				}
 			}

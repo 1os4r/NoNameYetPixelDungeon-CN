@@ -58,7 +58,7 @@ import java.util.HashSet;
 public class CharmOfWarden extends WandUtility {
 
 	{
-		name = "哨位符咒";
+		name = "哨位魔咒";
         image = ItemSpriteSheet.CHARM_JADE;
 	}
 
@@ -118,7 +118,7 @@ public class CharmOfWarden extends WandUtility {
 	@Override
 	public String desc() {
 		return
-			"这个由水晶和翡翠组成的符咒，具有召唤翡翠哨位的能力，这些哨位通常被设置用来守护殿堂，它会攻击视野内任何想要接近的敌人";
+			"这个由水晶和翡翠组成的魔咒，具有召唤翡翠哨位的能力，这些哨位通常被设置用来守护殿堂，它会攻击视野内任何想要接近的敌人";
 	}
 
     protected String getEffectDescription(int min , int max, boolean known){
@@ -206,7 +206,7 @@ public class CharmOfWarden extends WandUtility {
                 ((CharmOfWarden) Dungeon.hero.belongings.weap2).recharge(
                         (int) (((HP * 2 / 3) * lvl / HT) * ((CharmOfWarden) Dungeon.hero.belongings.weap2).rechargeRate())
                 );
-                GLog.i("你把哨位回收到了符咒中");
+                GLog.i("你把哨位回收到了魔咒中");
             } else {
                 GLog.i("你没能把哨位的能量完全回收");
             }

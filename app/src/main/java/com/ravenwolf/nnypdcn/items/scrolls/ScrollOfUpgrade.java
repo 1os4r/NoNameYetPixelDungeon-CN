@@ -105,7 +105,7 @@ public class ScrollOfUpgrade extends InventoryScroll {
 	@Override
 	public String desc() {
 		return
-			"这张卷轴可以升级一件物品，提升其品质。法杖和符咒的充能效果及充能数会获得提升，武器和护甲可以" +
+			"这张卷轴可以升级一件物品，提升其品质。法杖和魔咒的魔法效果及充能数都会获得提升，武器和护甲可以" +
             "造成或抵挡更多的伤害，戒指的效果将会增强。同时也会降低武器和护甲的力量需求。";
 	}
 

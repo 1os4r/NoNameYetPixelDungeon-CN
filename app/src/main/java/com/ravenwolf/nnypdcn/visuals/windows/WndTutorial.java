@@ -24,15 +24,13 @@
 package com.ravenwolf.nnypdcn.visuals.windows;
 
 import com.ravenwolf.nnypdcn.NoNameYetPixelDungeon;
-import com.ravenwolf.nnypdcn.visuals.Assets;
 import com.ravenwolf.nnypdcn.scenes.PixelScene;
+import com.ravenwolf.nnypdcn.visuals.Assets;
+import com.ravenwolf.nnypdcn.visuals.ui.RenderedTextMultiline;
 import com.ravenwolf.nnypdcn.visuals.ui.ScrollPane;
 import com.ravenwolf.nnypdcn.visuals.ui.Window;
 import com.watabou.gltextures.SmartTexture;
 import com.watabou.gltextures.TextureCache;
-import com.watabou.noosa.BitmapText;
-import com.watabou.noosa.BitmapTextMultiline;
-import com.ravenwolf.nnypdcn.visuals.ui.RenderedTextMultiline;
 import com.watabou.noosa.Image;
 import com.watabou.noosa.RenderedText;
 import com.watabou.noosa.TextureFilm;
@@ -71,7 +69,7 @@ public class WndTutorial extends WndTabbed {
                     "取决于你在游戏中的设置，这个按钮允许你点击两次或长按以进行一次周边搜索，让你发现周边的隐藏暗门或陷阱。当然，你也可以轻点按钮并选中任何地牢中的物品，以阅读它们的描述并获知其当前状态。",
                     "这个按钮位于屏幕右下角。点击它即可查看你的背包(想必你已经知道了)。长按它可以查看你当前持有的各类钥匙。",
                     "在背包按钮左侧有三个快捷栏，你可以利用快捷栏省略打开背包的步骤直接使用物品。长按快捷栏以添加或切换物品。",
-                    "在屏幕最右侧有三个操作按钮，分别是格挡按钮(只有装备盾牌和近战武器时才会显示，长按则会拿起盾牌猛击敌人)，远程攻击按钮(只有装备了投武或具有相应箭矢的弓弩时才会显示，点击即可进行一次射击)，以及魔具攻击按钮(只有当你装备了法杖或符咒时才会显示，点击即可进行一次施法)。",
+                    "在屏幕最右侧有三个操作按钮，分别是格挡按钮(只有装备盾牌和近战武器时才会显示，长按则会拿起盾牌猛击敌人)，远程攻击按钮(只有装备了投武或具有相应箭矢的弓弩时才会显示，点击即可进行一次射击)，以及魔具攻击按钮(只有当你装备了法杖或魔咒时才会显示，点击即可进行一次施法)。",
             /*"There is an offhand quickslot right above the inventory button. Its effect depends on the combination of weapons you have equipped at the moment. For example, it will shoot if wands or ranged weapons are equipped.",*/
                     "还有几个默认隐藏的按钮，分别是危险指示器，攻击，拾取和继续按钮。危险标记上会用数字标识出当前视野内的敌人数量。",
                     "点击危险指示器可以选取一名敌人，然后点击攻击按钮就可以在不点击怪物贴图的情况下攻敌人。以及，长按攻击按钮会显示目标的描述和当前状态。",
@@ -108,10 +106,10 @@ public class WndTutorial extends WndTabbed {
                     "布甲提供的防护非常有限，不过它可以增强你的一个次要属性——潜行，感知或意志。增强的数值会随着护甲升级而进一步提高，并能够创造出一些强大（但具有一定风险）的玩法。",
                     "盾牌会占用你的副手栏，使用盾牌会让你进入一个防守状态，一定回合内增加你的护甲等级，并概率格挡敌人的攻击。当成功格挡或招架敌人的时攻击，概率使其弹反，且下次攻击必定命中。盾牌也可以用来猛击敌人，造成一些伤害，并且晕眩和击退被盾牌弹反的敌人",
                     //"Wands can be very powerful, but you need to equip them and they have a limited number of charges. Utility wands spend all of their charges on use, and their effect depends on amount of charges used.",
-                    "法杖(wands)和符咒(charms)有着非常强大的效果，并且效果和角色的魔能和意志有关，你需要装备上它们才可以正常使用，而且他们的充能数量有限。法杖的远程输出较为稳定。而符咒在使用时会消耗所有充能，最终的效果则取决于所消耗的充能数。",
+                    "法杖(wands)和魔咒(charms)有着非常强大的效果，并且效果和角色的魔能和意志有关，你需要装备上它们才可以正常使用，而且他们的充能数量有限。法杖的远程输出较为稳定。而魔咒在使用时会消耗所有充能，最终的效果则取决于所消耗的充能数。",
             },
             {
-                    "大多数的装备都可以升级，升级后的装备会比原先的更强大，武器提高伤害，防具提高防护，还会降低力量需求，使得法杖和符咒拥有更多的充能上限和充能速度。不过要注意的是，每个物品最多只能提升至5级。",
+                    "大多数的装备都可以升级，升级后的装备会比原先的更强大，武器提高伤害，防具提高防护，还会降低力量需求，使得法杖和魔咒拥有更多的充能上限和充能速度。不过要注意的是，每个物品最多只能提升至5级。",
                     "武器和护甲都可被附魔。附魔会赋予装备一些特殊的效果，比如附带火焰伤害或提高酸蚀抗性，其触发几率取决于你的装备等级。同时，受到诅咒的装备会逆转其上的魔法效果，使它们对你自身造成负面影响",
                     "有些物品可能会携带诅咒，这意味着在你着装备它们后，直到清除诅咒之前都无法卸下(可以通过特定卷轴来清除诅咒)。诅咒物品与非诅咒物品有着相同的伤害和防护效果，在每一章节中越是强大的物品越是容易受到诅咒",
                     "戒指是一种稀有的饰品，当你装备它的时候会提升你的某项属性。它们本身并不强大，但类似的戒指效果相互叠加则会变得很强大。被诅咒的戒指反而降低你的某项能力",
@@ -123,7 +121,7 @@ public class WndTutorial extends WndTabbed {
                     "在合适的情况下，卷轴可以发挥出强大的功用。但如果使用不当，有些卷轴甚至会将你引入死亡之中。你没有办法通过观察确认卷轴的种类，除非你试着去读或者在商店里见到一个相同的卷轴。",
                     "在地牢中你会遇到各种各样的药剂。药水根据效果不同有益有害。有益药剂能够使你获得增益，而有害药剂通常更适合被扔向敌人。",
                     "有时在高草中会出现一些药草。你可以选择直接吃掉它们，食用这些药草会获得一定的减益或增益效果，可以在炼金釜中炼制药剂。药剂的类型取决于你使用的药草(药草被扔进锅里的顺序不影响结果)。",
-                    "如果发现背包格太少，可以在商店里购买包裹。不同的药草、药剂、卷轴或法杖符咒分别可以被收纳在一个专属的包裹中。此外，它还能保护这些物品免受环境的影响（比如火、冰等)。",
+                    "如果发现背包格太少，可以在商店里购买包裹。不同的药草、药剂、卷轴或法杖魔咒分别可以被收纳在一个专属的包裹中。此外，它还能保护这些物品免受环境的影响（比如火、冰等)。",
             },
             {
                     "探索地牢时，你会遇见诸多敌人。击败敌人是经验的主要来源，可用于提高你的等级，不过只有在敌人拥有足够威胁时你才能从战斗中得到进步。",

@@ -94,16 +94,16 @@ public class InterlevelScene extends PixelScene {
             "潜行属性影响你伏击敌人的概率",
 			"潜行属性影响你伏击伤害的加成",
 
-            "意志属性影响你所以法杖和符咒的充能速率",
+            "意志属性影响你所以法杖和魔咒的充能速率",
 			"意志属性影响你识别诅咒物品的几率",
-			"意志属性影响你抵抗诅咒触发的概率，比如法杖和符咒的错误释放",
+			"意志属性影响你抵抗诅咒触发的概率，比如法杖和魔咒的错误释放",
             //"Your chance to prevent equipping a cursed item depends on your Willpower",
             //"Willpower influences your chances to miscast with a wand or squeeze additional charge",
 			"在饥饿状态下，你的意志力会降低",
 
             "魔能属性影响一些卷轴释放的效果",
             "魔能属性影响你法杖的伤害",
-			"魔能属性影响你符咒的强度",
+			"魔能属性影响你魔咒的强度",
             //"Your magic skill improves damage of your wand of Magic Missile",
 
             "较高的力量增加你在被缠绕时挣脱的机会",
@@ -160,8 +160,8 @@ public class InterlevelScene extends PixelScene {
 			"诅咒的法杖有概率会施法失败，对自身释放和目标一样的效果",
             //"Combat wands have a chance to squeeze additional charge, which mostly depends on their quality level",
 
-            "符咒的充能速率受当前充能数的影响",
-            "符咒会一次性释放所有充能",
+            "魔咒的充能速率受当前充能数的影响",
+            "魔咒会一次性释放所有充能",
 
             //"Some rings can be kept only to equip them for certain occasions",
             "两个相同的戒指属性加成会叠加",
@@ -368,7 +368,7 @@ public class InterlevelScene extends PixelScene {
         if( NoNameYetPixelDungeon.loadingTips() > 0 ) {
 
             RenderedTextMultiline tip = PixelScene.renderMultiline(TIPS[Random.Int(TIPS.length)], 6);
-            tip.maxWidth(Camera.main.width * 8 / 10);
+            tip.maxWidth(Camera.main.width * 9 / 10);
             tip.setPos(Camera.main.width / 2 - tip.width() / 2,Camera.main.height * 3 / 4 - tip.height() * 3 / 4 + tipBox.size() * tip.height());
             align(tip);
             add(tip);
