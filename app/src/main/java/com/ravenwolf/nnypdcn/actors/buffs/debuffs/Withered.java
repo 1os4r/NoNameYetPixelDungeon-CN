@@ -36,11 +36,11 @@ public class Withered extends Debuff {
 
     @Override
     public String toString() {
-        return "衰败";
+        return "衰弱";
     }
 
     @Override
-    public String statusMessage() { return "衰败"; }
+    public String statusMessage() { return "衰弱"; }
 
     @Override
     public String playerMessage() { return "你感受到力量正在被抽走！"; }
@@ -62,7 +62,7 @@ public class Withered extends Debuff {
 
     @Override
     public String description() {
-        return "衰败的力量渗透渗了你身的全身，并弱化你的武器和护甲。治疗，充能等回复手段也因此受到限制。";
+        return "衰弱感渗透了你的全身，并弱化你的武器和护甲。治疗，充能等回复手段也因此受到限制。";
     }
 
 }
