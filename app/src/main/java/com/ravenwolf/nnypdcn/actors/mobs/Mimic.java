@@ -145,7 +145,7 @@ public class Mimic extends MobHealthy {
             devour(item);
 
             if (Dungeon.visible[pos]) {
-                GLog.w("拟型怪正在地板上模仿着 %s！", item.toString());
+                GLog.w("宝箱怪吞掉了地上的%s！", item.toString());
             }
 
             spend( TIME_TO_DEVOUR );

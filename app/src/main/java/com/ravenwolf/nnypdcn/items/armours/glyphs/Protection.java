@@ -44,7 +44,7 @@ public class Protection extends Armour.Glyph {
 
     @Override
     protected String name_n() {
-        return "衰败%s";
+        return "恩赐%s";
     }
 
     @Override
@@ -54,7 +54,7 @@ public class Protection extends Armour.Glyph {
 
     @Override
     protected String desc_n() {
-        return "被击中时会衰弱自己";
+        return "被击中时赋予敌人圣光庇护";
     }
 
     @Override
