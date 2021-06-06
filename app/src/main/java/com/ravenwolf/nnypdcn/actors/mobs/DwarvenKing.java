@@ -527,7 +527,7 @@ package com.ravenwolf.nnypdcn.actors.mobs;
                 if( buff != null ) {
 
                     buff.consumed( king.breaks );
-                    sprite.showStatus(CharSprite.NEGATIVE, "sacrificed");
+                    sprite.showStatus(CharSprite.NEGATIVE, "献身");
                     new Flare( 6, 16 ).color( SpellSprite.COLOUR_DARK, true).show( sprite, 2f );
 
                 }
