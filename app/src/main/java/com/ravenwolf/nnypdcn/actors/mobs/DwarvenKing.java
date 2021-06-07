@@ -635,7 +635,7 @@ package com.ravenwolf.nnypdcn.actors.mobs;
 
         @Override
         public String tileDesc() {
-            return "这里的骸骨仍然在获得，令人不寒而栗。";
+            return "这里的骸骨仍然在活动，让人感觉不寒而栗。";
         }
     }
 
