@@ -49,7 +49,7 @@ public class Eldritch extends Weapon.Enchantment {
 
     @Override
     protected String desc_p() {
-        return "攻击会恐吓对人";
+        return "攻击会恐吓敌人";
     }
 
     @Override
