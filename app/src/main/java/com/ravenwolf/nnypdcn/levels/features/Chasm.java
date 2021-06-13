@@ -60,7 +60,7 @@ public class Chasm {
 		"你确定要跳下虚空吗？你可能会因此而死亡。";
 
     private static final String TXT_LANDS_SAFELY = "你安全地降落在地面上！";
-    private static final String TXT_SHATTER_PACK = "你的%s被虚空的压力摧毁了";
+    private static final String TXT_SHATTER_PACK = "你的%s被虚空的压力摧毁了！";
 
 	public static boolean jumpConfirmed = false;
 	public static boolean useLevitation = false;
