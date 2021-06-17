@@ -149,7 +149,7 @@ public class DM300 extends MobHealthy {
             BuffActive.add(this, Enraged.class, breaks * Random.Float(8.0f, 12.0f));
 
             if (Dungeon.visible[pos]) {
-                sprite.showStatus( CharSprite.NEGATIVE, "enraged!" );
+                sprite.showStatus( CharSprite.NEGATIVE, "狂暴!" );
                 GLog.n( "DM-300被激怒了！" );
             }
 
