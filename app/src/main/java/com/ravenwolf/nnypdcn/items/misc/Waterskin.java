@@ -78,7 +78,7 @@ public class Waterskin extends Item {
     private static final String TXT_R_U_SURE =
             "饮用水袋中的水只能够恢复你一部分的缺失生命值，所以一般情况下生命值较低时使用更加合适。你确定现在就要喝水吗？";
 
-    private static final String TXT_YES			= "使得，我知道自己在做什么";
+    private static final String TXT_YES			= "是的，我知道自己在做什么";
     private static final String TXT_NO			= "不，我改变主意了";
 
 	{
