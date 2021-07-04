@@ -59,7 +59,7 @@ public class RingOfSatiety extends Ring {
 
         desc.append(
             "佩戴这枚戒指会降低_" + mainEffect + "%的饱腹度消耗率_" +
-                    "并且提高饱腹buff下_" + sideEffect + "%_的魔能，感知和潜行属性。"
+                    "并且提高饱腹buff下_" + sideEffect + "%_的意志，感知和潜行属性。"
         );
 
         return desc.toString();
