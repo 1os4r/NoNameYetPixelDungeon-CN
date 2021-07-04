@@ -87,7 +87,7 @@ public class InterlevelScene extends PixelScene {
             "感知属性影响侦察陷阱和周边隐藏门所需的时间",
             "感知属性影响你被动发现周边隐藏门的概率",
             "感知属性影响你探索或睡眠时听见周遭敌人声音的几率",
-            "感知属性影响你在格挡时弹反敌人的几率",
+            "感知属性影响你格挡和弹反敌人的概率",
 			"感知属性影响你在攻击时打出暴击的概率",
 
             "潜行属性影响你被敌人发现的概率",
@@ -189,7 +189,7 @@ public class InterlevelScene extends PixelScene {
             "使用卷轴或者法杖之类的物品时同样会中断隐形效果",
             "敌人在移动时也可能会撞破你的隐形",
 
-            "引用圣盾药剂时会提高你的物抗和法抗",
+            "饮用圣盾药剂时会提高你的物抗和法抗",
             //"Throw a potion of Blessing on adjacent tile to weaken curses on items in your inventory",
 
             "液火药剂不会蔓延到水面上",
