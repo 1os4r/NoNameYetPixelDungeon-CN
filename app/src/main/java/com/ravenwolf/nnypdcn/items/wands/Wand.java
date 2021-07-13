@@ -74,7 +74,7 @@ public abstract class Wand extends EquipableItem {
 
     protected static final String TXT_FIZZLES		= "失能";
 	private static final String TXT_SQUEEZE		= "你从法杖中抽出了额外的充能";
-    private static final String TXT_MISCAST		= "施法失败！";
+    private static final String TXT_MISCAST		= "施法错误！";
     protected static final String TXT_SELF_TARGET	= "你不能瞄准自己！";
 
 	private static final String TXT_IDENTIFY	= "你对手上的%s已经足够熟悉";
